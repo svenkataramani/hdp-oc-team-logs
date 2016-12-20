@@ -1,0 +1,530 @@
+2016-12-06
+2016-12-20
+
+Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
+OK
+Time taken: 1.73 seconds
+16/12/20 10:30:33 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:33 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:33 WARN parse.RowResolver: Duplicate column info for a.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:33 WARN parse.RowResolver: Duplicate column info for o.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for r.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for br.resource_id was overwritten in RowResolver map: _col1: int by _col1: int
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for r.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for gd.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for otm.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for gd.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for otm.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr_union.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr_union.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr_union.prod_type was overwritten in RowResolver map: _col2: string by _col2: string
+16/12/20 10:30:34 WARN parse.RowResolver: Duplicate column info for dcr_union.event_action was overwritten in RowResolver map: _col4: string by _col4: string
+16/12/20 10:30:35 ERROR calcite.RelOptHiveTable: No Stats for hosting_wpaas@products_snap, Columns: userid
+16/12/20 10:30:35 ERROR parse.CalcitePlanner: CBO failed due to missing column stats (see previous errors), skipping CBO
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for a.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for o.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for r.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for br.resource_id was overwritten in RowResolver map: _col1: int by _col1: int
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for r.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for er.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for gd.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for otm.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for gd.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for otm.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr_union.shopper_id was overwritten in RowResolver map: _col0: string by _col0: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr_union.resource_id was overwritten in RowResolver map: _col1: bigint by _col1: bigint
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr_union.prod_type was overwritten in RowResolver map: _col2: string by _col2: string
+16/12/20 10:30:38 WARN parse.RowResolver: Duplicate column info for dcr_union.event_action was overwritten in RowResolver map: _col4: string by _col4: string
+Query ID = hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959
+Total jobs = 61
+Stage-1 is selected by condition resolver.
+Stage-122 is selected by condition resolver.
+Stage-6 is filtered out by condition resolver.
+Stage-11 is selected by condition resolver.
+Stage-133 is selected by condition resolver.
+Stage-19 is filtered out by condition resolver.
+Stage-140 is selected by condition resolver.
+Stage-28 is filtered out by condition resolver.
+Stage-37 is selected by condition resolver.
+Stage-40 is selected by condition resolver.
+Stage-43 is selected by condition resolver.
+Stage-143 is selected by condition resolver.
+Stage-46 is filtered out by condition resolver.
+Stage-146 is selected by condition resolver.
+Stage-52 is filtered out by condition resolver.
+Launching Job 6 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:30:43 ERROR mr.ExecDriver: yarn
+16/12/20 10:30:43 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900785, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900785/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900785
+Hadoop job information for Stage-1: number of mappers: 5625; number of reducers: 1009
+16/12/20 10:30:55 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:30:55,177 Stage-1 map = 0%,  reduce = 0%
+2016-12-20 10:31:15,595 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 506.96 sec
+2016-12-20 10:31:16,747 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 2164.71 sec
+2016-12-20 10:31:17,812 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 3912.76 sec
+2016-12-20 10:31:18,897 Stage-1 map = 8%,  reduce = 0%, Cumulative CPU 5600.57 sec
+2016-12-20 10:31:19,983 Stage-1 map = 11%,  reduce = 0%, Cumulative CPU 8208.13 sec
+2016-12-20 10:31:21,066 Stage-1 map = 14%,  reduce = 0%, Cumulative CPU 11322.63 sec
+2016-12-20 10:31:22,136 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 14566.78 sec
+2016-12-20 10:31:23,328 Stage-1 map = 23%,  reduce = 0%, Cumulative CPU 17458.39 sec
+2016-12-20 10:31:24,409 Stage-1 map = 28%,  reduce = 0%, Cumulative CPU 21099.01 sec
+2016-12-20 10:31:25,484 Stage-1 map = 33%,  reduce = 0%, Cumulative CPU 24276.46 sec
+2016-12-20 10:31:26,569 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 27488.68 sec
+2016-12-20 10:31:27,638 Stage-1 map = 40%,  reduce = 0%, Cumulative CPU 29723.14 sec
+2016-12-20 10:31:28,722 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 31642.63 sec
+2016-12-20 10:31:29,801 Stage-1 map = 45%,  reduce = 0%, Cumulative CPU 33083.86 sec
+2016-12-20 10:31:30,882 Stage-1 map = 46%,  reduce = 0%, Cumulative CPU 34202.06 sec
+2016-12-20 10:31:31,984 Stage-1 map = 48%,  reduce = 0%, Cumulative CPU 35500.29 sec
+2016-12-20 10:31:33,065 Stage-1 map = 49%,  reduce = 0%, Cumulative CPU 36377.76 sec
+2016-12-20 10:31:34,150 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 36988.86 sec
+2016-12-20 10:31:35,227 Stage-1 map = 51%,  reduce = 1%, Cumulative CPU 38062.92 sec
+2016-12-20 10:31:36,314 Stage-1 map = 52%,  reduce = 2%, Cumulative CPU 39332.04 sec
+2016-12-20 10:31:37,382 Stage-1 map = 54%,  reduce = 3%, Cumulative CPU 40567.65 sec
+2016-12-20 10:31:38,463 Stage-1 map = 56%,  reduce = 4%, Cumulative CPU 42330.42 sec
+2016-12-20 10:31:39,535 Stage-1 map = 58%,  reduce = 5%, Cumulative CPU 44296.09 sec
+2016-12-20 10:31:40,606 Stage-1 map = 60%,  reduce = 6%, Cumulative CPU 46395.67 sec
+2016-12-20 10:31:41,672 Stage-1 map = 63%,  reduce = 7%, Cumulative CPU 48502.03 sec
+2016-12-20 10:31:42,780 Stage-1 map = 65%,  reduce = 8%, Cumulative CPU 50820.27 sec
+2016-12-20 10:31:43,877 Stage-1 map = 68%,  reduce = 9%, Cumulative CPU 53223.65 sec
+2016-12-20 10:31:44,979 Stage-1 map = 71%,  reduce = 10%, Cumulative CPU 55620.67 sec
+2016-12-20 10:31:46,121 Stage-1 map = 73%,  reduce = 12%, Cumulative CPU 57969.67 sec
+2016-12-20 10:31:47,189 Stage-1 map = 76%,  reduce = 13%, Cumulative CPU 60646.27 sec
+2016-12-20 10:31:48,261 Stage-1 map = 78%,  reduce = 15%, Cumulative CPU 63251.0 sec
+2016-12-20 10:31:49,347 Stage-1 map = 81%,  reduce = 16%, Cumulative CPU 65592.41 sec
+2016-12-20 10:31:50,439 Stage-1 map = 84%,  reduce = 17%, Cumulative CPU 67871.69 sec
+2016-12-20 10:31:51,510 Stage-1 map = 87%,  reduce = 18%, Cumulative CPU 70022.76 sec
+2016-12-20 10:31:52,579 Stage-1 map = 89%,  reduce = 19%, Cumulative CPU 72094.73 sec
+2016-12-20 10:31:53,713 Stage-1 map = 91%,  reduce = 20%, Cumulative CPU 73959.27 sec
+2016-12-20 10:31:54,801 Stage-1 map = 94%,  reduce = 21%, Cumulative CPU 75838.48 sec
+2016-12-20 10:31:55,878 Stage-1 map = 95%,  reduce = 22%, Cumulative CPU 77371.72 sec
+2016-12-20 10:31:56,940 Stage-1 map = 97%,  reduce = 23%, Cumulative CPU 78727.98 sec
+2016-12-20 10:31:58,018 Stage-1 map = 98%,  reduce = 23%, Cumulative CPU 79666.04 sec
+2016-12-20 10:31:59,081 Stage-1 map = 98%,  reduce = 25%, Cumulative CPU 80918.67 sec
+2016-12-20 10:32:00,145 Stage-1 map = 99%,  reduce = 27%, Cumulative CPU 82292.52 sec
+2016-12-20 10:32:01,213 Stage-1 map = 99%,  reduce = 30%, Cumulative CPU 83658.58 sec
+2016-12-20 10:32:02,290 Stage-1 map = 99%,  reduce = 31%, Cumulative CPU 84342.25 sec
+2016-12-20 10:32:03,360 Stage-1 map = 99%,  reduce = 32%, Cumulative CPU 85082.12 sec
+2016-12-20 10:32:05,497 Stage-1 map = 99%,  reduce = 33%, Cumulative CPU 85806.05 sec
+2016-12-20 10:32:31,145 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 87767.2 sec
+2016-12-20 10:32:32,230 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 87969.04 sec
+2016-12-20 10:32:33,324 Stage-1 map = 100%,  reduce = 56%, Cumulative CPU 89692.48 sec
+2016-12-20 10:32:34,422 Stage-1 map = 100%,  reduce = 87%, Cumulative CPU 94681.52 sec
+2016-12-20 10:32:35,486 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 96735.75 sec
+2016-12-20 10:32:36,542 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 97324.79 sec
+2016-12-20 10:32:38,660 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 97569.17 sec
+MapReduce Total cumulative CPU time: 1 days 3 hours 6 minutes 9 seconds 170 msec
+Ended Job = job_1478649307064_900785
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959.log
+2016-12-20 10:32:43	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-20 10:32:46	Dump the side-table for tag: 1 with group count: 186248 into file: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10039/HashTable-Stage-63/MapJoin-mapfile41--.hashtable
+2016-12-20 10:32:47	Uploaded 1 File to: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10039/HashTable-Stage-63/MapJoin-mapfile41--.hashtable (12810254 bytes)
+2016-12-20 10:32:47	End of local task; Time Taken: 3.317 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 7 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 2
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:32:48 ERROR mr.ExecDriver: yarn
+16/12/20 10:32:48 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900820, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900820/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900820
+Hadoop job information for Stage-11: number of mappers: 2; number of reducers: 2
+16/12/20 10:32:56 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:32:56,614 Stage-11 map = 0%,  reduce = 0%
+2016-12-20 10:33:08,996 Stage-11 map = 33%,  reduce = 0%, Cumulative CPU 19.74 sec
+2016-12-20 10:33:11,059 Stage-11 map = 50%,  reduce = 0%, Cumulative CPU 21.65 sec
+2016-12-20 10:33:12,102 Stage-11 map = 83%,  reduce = 0%, Cumulative CPU 25.21 sec
+2016-12-20 10:33:14,186 Stage-11 map = 100%,  reduce = 0%, Cumulative CPU 27.54 sec
+2016-12-20 10:33:23,576 Stage-11 map = 100%,  reduce = 46%, Cumulative CPU 38.79 sec
+2016-12-20 10:33:24,617 Stage-11 map = 100%,  reduce = 91%, Cumulative CPU 49.75 sec
+2016-12-20 10:33:25,658 Stage-11 map = 100%,  reduce = 100%, Cumulative CPU 52.67 sec
+MapReduce Total cumulative CPU time: 52 seconds 670 msec
+Ended Job = job_1478649307064_900820
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959.log
+2016-12-20 10:33:34	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-20 10:33:37	Processing rows:	200000	Hashtable size:	199999	Memory usage:	149757816	percentage:	0.072
+2016-12-20 10:33:37	Processing rows:	300000	Hashtable size:	299999	Memory usage:	92651232	percentage:	0.044
+2016-12-20 10:33:37	Processing rows:	400000	Hashtable size:	399999	Memory usage:	127552384	percentage:	0.061
+2016-12-20 10:33:38	Processing rows:	500000	Hashtable size:	499999	Memory usage:	156612760	percentage:	0.075
+2016-12-20 10:33:38	Processing rows:	600000	Hashtable size:	599999	Memory usage:	183501912	percentage:	0.088
+2016-12-20 10:33:38	Processing rows:	700000	Hashtable size:	699999	Memory usage:	208218784	percentage:	0.10
+2016-12-20 10:33:38	Dump the side-table for tag: 0 with group count: 725640 into file: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10061/HashTable-Stage-85/MapJoin-mapfile190--.hashtable
+2016-12-20 10:33:39	Uploaded 1 File to: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10061/HashTable-Stage-85/MapJoin-mapfile190--.hashtable (22764998 bytes)
+2016-12-20 10:33:39	End of local task; Time Taken: 5.229 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959.log
+2016-12-20 10:33:44	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-20 10:33:47	Dump the side-table for tag: 0 with group count: 190053 into file: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10075/HashTable-Stage-97/MapJoin-mapfile270--.hashtable
+2016-12-20 10:33:47	Uploaded 1 File to: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10075/HashTable-Stage-97/MapJoin-mapfile270--.hashtable (4964844 bytes)
+2016-12-20 10:33:47	End of local task; Time Taken: 3.126 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 8 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:33:48 ERROR mr.ExecDriver: yarn
+16/12/20 10:33:48 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900851, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900851/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900851
+Hadoop job information for Stage-37: number of mappers: 5625; number of reducers: 1009
+16/12/20 10:33:57 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:33:57,525 Stage-37 map = 0%,  reduce = 0%
+2016-12-20 10:34:20,673 Stage-37 map = 2%,  reduce = 0%, Cumulative CPU 17066.0 sec
+2016-12-20 10:34:21,841 Stage-37 map = 4%,  reduce = 0%, Cumulative CPU 17765.77 sec
+2016-12-20 10:34:25,322 Stage-37 map = 8%,  reduce = 0%, Cumulative CPU 29425.85 sec
+2016-12-20 10:34:26,423 Stage-37 map = 9%,  reduce = 0%, Cumulative CPU 27020.2 sec
+2016-12-20 10:34:27,528 Stage-37 map = 12%,  reduce = 0%, Cumulative CPU 26008.76 sec
+2016-12-20 10:34:28,615 Stage-37 map = 11%,  reduce = 0%, Cumulative CPU 27358.51 sec
+2016-12-20 10:34:29,703 Stage-37 map = 13%,  reduce = 0%, Cumulative CPU 28000.51 sec
+2016-12-20 10:34:30,821 Stage-37 map = 12%,  reduce = 0%, Cumulative CPU 24990.5 sec
+2016-12-20 10:34:31,954 Stage-37 map = 13%,  reduce = 0%, Cumulative CPU 25658.84 sec
+2016-12-20 10:34:33,553 Stage-37 map = 14%,  reduce = 0%, Cumulative CPU 26532.65 sec
+2016-12-20 10:34:35,789 Stage-37 map = 15%,  reduce = 0%, Cumulative CPU 27054.63 sec
+2016-12-20 10:34:38,016 Stage-37 map = 16%,  reduce = 0%, Cumulative CPU 31313.97 sec
+2016-12-20 10:34:40,188 Stage-37 map = 17%,  reduce = 0%, Cumulative CPU 35215.21 sec
+2016-12-20 10:34:41,322 Stage-37 map = 18%,  reduce = 0%, Cumulative CPU 38560.65 sec
+2016-12-20 10:34:43,757 Stage-37 map = 19%,  reduce = 0%, Cumulative CPU 42706.03 sec
+2016-12-20 10:34:45,025 Stage-37 map = 21%,  reduce = 0%, Cumulative CPU 47001.44 sec
+2016-12-20 10:34:46,148 Stage-37 map = 23%,  reduce = 0%, Cumulative CPU 50649.5 sec
+2016-12-20 10:34:47,672 Stage-37 map = 26%,  reduce = 0%, Cumulative CPU 55229.19 sec
+2016-12-20 10:34:48,780 Stage-37 map = 28%,  reduce = 0%, Cumulative CPU 60214.83 sec
+2016-12-20 10:34:49,874 Stage-37 map = 31%,  reduce = 0%, Cumulative CPU 64178.85 sec
+2016-12-20 10:34:50,948 Stage-37 map = 33%,  reduce = 0%, Cumulative CPU 67455.5 sec
+2016-12-20 10:34:52,044 Stage-37 map = 37%,  reduce = 1%, Cumulative CPU 71927.18 sec
+2016-12-20 10:34:53,131 Stage-37 map = 39%,  reduce = 1%, Cumulative CPU 75676.45 sec
+2016-12-20 10:34:54,210 Stage-37 map = 42%,  reduce = 1%, Cumulative CPU 78992.83 sec
+2016-12-20 10:34:55,328 Stage-37 map = 45%,  reduce = 2%, Cumulative CPU 83034.85 sec
+2016-12-20 10:34:56,526 Stage-37 map = 48%,  reduce = 3%, Cumulative CPU 86834.74 sec
+2016-12-20 10:34:58,169 Stage-37 map = 51%,  reduce = 4%, Cumulative CPU 90604.95 sec
+2016-12-20 10:34:59,276 Stage-37 map = 54%,  reduce = 6%, Cumulative CPU 95438.18 sec
+2016-12-20 10:35:00,876 Stage-37 map = 57%,  reduce = 7%, Cumulative CPU 98623.73 sec
+2016-12-20 10:35:01,957 Stage-37 map = 59%,  reduce = 10%, Cumulative CPU 102317.99 sec
+2016-12-20 10:35:03,031 Stage-37 map = 61%,  reduce = 11%, Cumulative CPU 104952.62 sec
+2016-12-20 10:35:04,109 Stage-37 map = 63%,  reduce = 14%, Cumulative CPU 107617.64 sec
+2016-12-20 10:35:05,183 Stage-37 map = 64%,  reduce = 15%, Cumulative CPU 109756.35 sec
+2016-12-20 10:35:06,266 Stage-37 map = 66%,  reduce = 18%, Cumulative CPU 112742.19 sec
+2016-12-20 10:35:07,329 Stage-37 map = 67%,  reduce = 19%, Cumulative CPU 113950.55 sec
+2016-12-20 10:35:08,392 Stage-37 map = 69%,  reduce = 20%, Cumulative CPU 115924.68 sec
+2016-12-20 10:35:09,456 Stage-37 map = 71%,  reduce = 21%, Cumulative CPU 118222.59 sec
+2016-12-20 10:35:10,525 Stage-37 map = 72%,  reduce = 22%, Cumulative CPU 119803.21 sec
+2016-12-20 10:35:11,593 Stage-37 map = 74%,  reduce = 23%, Cumulative CPU 121374.3 sec
+2016-12-20 10:35:12,671 Stage-37 map = 76%,  reduce = 23%, Cumulative CPU 123322.92 sec
+2016-12-20 10:35:13,743 Stage-37 map = 77%,  reduce = 24%, Cumulative CPU 124606.4 sec
+2016-12-20 10:35:14,812 Stage-37 map = 78%,  reduce = 24%, Cumulative CPU 125822.02 sec
+2016-12-20 10:35:15,875 Stage-37 map = 79%,  reduce = 25%, Cumulative CPU 127040.59 sec
+2016-12-20 10:35:16,946 Stage-37 map = 80%,  reduce = 25%, Cumulative CPU 127989.81 sec
+2016-12-20 10:35:18,014 Stage-37 map = 81%,  reduce = 26%, Cumulative CPU 129067.81 sec
+2016-12-20 10:35:19,093 Stage-37 map = 82%,  reduce = 26%, Cumulative CPU 130398.97 sec
+2016-12-20 10:35:20,174 Stage-37 map = 83%,  reduce = 27%, Cumulative CPU 131488.76 sec
+2016-12-20 10:35:21,244 Stage-37 map = 84%,  reduce = 27%, Cumulative CPU 132362.35 sec
+2016-12-20 10:35:22,315 Stage-37 map = 85%,  reduce = 27%, Cumulative CPU 133059.99 sec
+2016-12-20 10:35:23,385 Stage-37 map = 86%,  reduce = 28%, Cumulative CPU 133665.71 sec
+2016-12-20 10:35:25,514 Stage-37 map = 87%,  reduce = 28%, Cumulative CPU 135187.53 sec
+2016-12-20 10:35:26,583 Stage-37 map = 88%,  reduce = 28%, Cumulative CPU 135733.45 sec
+2016-12-20 10:35:27,675 Stage-37 map = 88%,  reduce = 29%, Cumulative CPU 136163.43 sec
+2016-12-20 10:35:28,751 Stage-37 map = 89%,  reduce = 29%, Cumulative CPU 136733.36 sec
+2016-12-20 10:35:31,991 Stage-37 map = 90%,  reduce = 29%, Cumulative CPU 138021.12 sec
+2016-12-20 10:35:34,144 Stage-37 map = 91%,  reduce = 30%, Cumulative CPU 138526.6 sec
+2016-12-20 10:35:37,358 Stage-37 map = 92%,  reduce = 30%, Cumulative CPU 139408.57 sec
+2016-12-20 10:35:42,725 Stage-37 map = 93%,  reduce = 31%, Cumulative CPU 140323.05 sec
+2016-12-20 10:35:47,039 Stage-37 map = 94%,  reduce = 31%, Cumulative CPU 141058.91 sec
+2016-12-20 10:35:51,855 Stage-37 map = 95%,  reduce = 31%, Cumulative CPU 141681.76 sec
+2016-12-20 10:35:58,289 Stage-37 map = 95%,  reduce = 32%, Cumulative CPU 142368.43 sec
+2016-12-20 10:36:00,432 Stage-37 map = 96%,  reduce = 32%, Cumulative CPU 142560.57 sec
+2016-12-20 10:36:15,367 Stage-37 map = 97%,  reduce = 32%, Cumulative CPU 145160.45 sec
+2016-12-20 10:36:33,479 Stage-37 map = 98%,  reduce = 32%, Cumulative CPU 146396.23 sec
+2016-12-20 10:36:42,003 Stage-37 map = 98%,  reduce = 33%, Cumulative CPU 146738.82 sec
+2016-12-20 10:36:52,672 Stage-37 map = 99%,  reduce = 33%, Cumulative CPU 147740.22 sec
+2016-12-20 10:37:52,744 Stage-37 map = 99%,  reduce = 33%, Cumulative CPU 150324.25 sec
+2016-12-20 10:37:55,971 Stage-37 map = 100%,  reduce = 37%, Cumulative CPU 150611.68 sec
+2016-12-20 10:37:57,068 Stage-37 map = 100%,  reduce = 50%, Cumulative CPU 151599.99 sec
+2016-12-20 10:37:58,206 Stage-37 map = 100%,  reduce = 80%, Cumulative CPU 156184.41 sec
+2016-12-20 10:37:59,284 Stage-37 map = 100%,  reduce = 96%, Cumulative CPU 159295.47 sec
+2016-12-20 10:38:00,347 Stage-37 map = 100%,  reduce = 99%, Cumulative CPU 160126.25 sec
+2016-12-20 10:38:02,445 Stage-37 map = 100%,  reduce = 100%, Cumulative CPU 160285.19 sec
+MapReduce Total cumulative CPU time: 1 days 20 hours 31 minutes 25 seconds 190 msec
+Ended Job = job_1478649307064_900851
+Launching Job 9 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:38:04 ERROR mr.ExecDriver: yarn
+16/12/20 10:38:04 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900932, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900932/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900932
+Hadoop job information for Stage-40: number of mappers: 5625; number of reducers: 1009
+16/12/20 10:38:13 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:38:13,129 Stage-40 map = 0%,  reduce = 0%
+2016-12-20 10:38:34,300 Stage-40 map = 2%,  reduce = 0%, Cumulative CPU 956.49 sec
+2016-12-20 10:38:35,388 Stage-40 map = 7%,  reduce = 0%, Cumulative CPU 3804.0 sec
+2016-12-20 10:38:36,505 Stage-40 map = 15%,  reduce = 0%, Cumulative CPU 9145.18 sec
+2016-12-20 10:38:37,596 Stage-40 map = 21%,  reduce = 0%, Cumulative CPU 13953.95 sec
+2016-12-20 10:38:38,662 Stage-40 map = 24%,  reduce = 0%, Cumulative CPU 16592.57 sec
+2016-12-20 10:38:39,747 Stage-40 map = 27%,  reduce = 0%, Cumulative CPU 18415.44 sec
+2016-12-20 10:38:40,846 Stage-40 map = 29%,  reduce = 0%, Cumulative CPU 20110.77 sec
+2016-12-20 10:38:41,913 Stage-40 map = 31%,  reduce = 0%, Cumulative CPU 21238.89 sec
+2016-12-20 10:38:42,981 Stage-40 map = 32%,  reduce = 0%, Cumulative CPU 22032.53 sec
+2016-12-20 10:38:44,075 Stage-40 map = 33%,  reduce = 0%, Cumulative CPU 23320.52 sec
+2016-12-20 10:38:45,147 Stage-40 map = 35%,  reduce = 0%, Cumulative CPU 24608.62 sec
+2016-12-20 10:38:46,242 Stage-40 map = 38%,  reduce = 0%, Cumulative CPU 26586.68 sec
+2016-12-20 10:38:47,367 Stage-40 map = 46%,  reduce = 0%, Cumulative CPU 31050.22 sec
+2016-12-20 10:38:48,448 Stage-40 map = 51%,  reduce = 0%, Cumulative CPU 34903.49 sec
+2016-12-20 10:38:49,547 Stage-40 map = 54%,  reduce = 1%, Cumulative CPU 37382.33 sec
+2016-12-20 10:38:50,610 Stage-40 map = 55%,  reduce = 2%, Cumulative CPU 38941.05 sec
+2016-12-20 10:38:51,673 Stage-40 map = 56%,  reduce = 4%, Cumulative CPU 39896.54 sec
+2016-12-20 10:38:52,740 Stage-40 map = 57%,  reduce = 5%, Cumulative CPU 40914.8 sec
+2016-12-20 10:38:53,826 Stage-40 map = 58%,  reduce = 5%, Cumulative CPU 42010.32 sec
+2016-12-20 10:38:54,887 Stage-40 map = 60%,  reduce = 6%, Cumulative CPU 43165.13 sec
+2016-12-20 10:38:55,947 Stage-40 map = 62%,  reduce = 7%, Cumulative CPU 44694.43 sec
+2016-12-20 10:38:57,012 Stage-40 map = 65%,  reduce = 7%, Cumulative CPU 47020.77 sec
+2016-12-20 10:38:58,078 Stage-40 map = 68%,  reduce = 8%, Cumulative CPU 49348.53 sec
+2016-12-20 10:38:59,141 Stage-40 map = 70%,  reduce = 9%, Cumulative CPU 51193.23 sec
+2016-12-20 10:39:00,206 Stage-40 map = 71%,  reduce = 11%, Cumulative CPU 53014.45 sec
+2016-12-20 10:39:01,268 Stage-40 map = 73%,  reduce = 12%, Cumulative CPU 54405.69 sec
+2016-12-20 10:39:02,323 Stage-40 map = 75%,  reduce = 12%, Cumulative CPU 55662.29 sec
+2016-12-20 10:39:03,388 Stage-40 map = 77%,  reduce = 13%, Cumulative CPU 57145.51 sec
+2016-12-20 10:39:04,445 Stage-40 map = 80%,  reduce = 13%, Cumulative CPU 59085.14 sec
+2016-12-20 10:39:05,499 Stage-40 map = 83%,  reduce = 14%, Cumulative CPU 61088.52 sec
+2016-12-20 10:39:06,563 Stage-40 map = 86%,  reduce = 14%, Cumulative CPU 62933.27 sec
+2016-12-20 10:39:07,614 Stage-40 map = 89%,  reduce = 15%, Cumulative CPU 64601.74 sec
+2016-12-20 10:39:08,672 Stage-40 map = 92%,  reduce = 16%, Cumulative CPU 66462.9 sec
+2016-12-20 10:39:09,726 Stage-40 map = 94%,  reduce = 16%, Cumulative CPU 67762.13 sec
+2016-12-20 10:39:10,781 Stage-40 map = 98%,  reduce = 17%, Cumulative CPU 69563.53 sec
+2016-12-20 10:39:11,834 Stage-40 map = 99%,  reduce = 17%, Cumulative CPU 70487.39 sec
+2016-12-20 10:39:12,911 Stage-40 map = 99%,  reduce = 18%, Cumulative CPU 71115.76 sec
+2016-12-20 10:39:17,122 Stage-40 map = 99%,  reduce = 21%, Cumulative CPU 72915.53 sec
+2016-12-20 10:39:18,176 Stage-40 map = 99%,  reduce = 23%, Cumulative CPU 73553.26 sec
+2016-12-20 10:39:19,227 Stage-40 map = 99%,  reduce = 28%, Cumulative CPU 74601.15 sec
+2016-12-20 10:39:20,279 Stage-40 map = 99%,  reduce = 30%, Cumulative CPU 75233.09 sec
+2016-12-20 10:39:21,331 Stage-40 map = 99%,  reduce = 33%, Cumulative CPU 75938.99 sec
+2016-12-20 10:39:53,000 Stage-40 map = 100%,  reduce = 35%, Cumulative CPU 77560.4 sec
+2016-12-20 10:39:54,105 Stage-40 map = 100%,  reduce = 50%, Cumulative CPU 78653.99 sec
+2016-12-20 10:39:55,231 Stage-40 map = 100%,  reduce = 80%, Cumulative CPU 82864.22 sec
+2016-12-20 10:39:56,293 Stage-40 map = 100%,  reduce = 97%, Cumulative CPU 85864.11 sec
+2016-12-20 10:39:57,348 Stage-40 map = 100%,  reduce = 99%, Cumulative CPU 86463.89 sec
+2016-12-20 10:39:59,437 Stage-40 map = 100%,  reduce = 100%, Cumulative CPU 86585.52 sec
+MapReduce Total cumulative CPU time: 1 days 0 hours 3 minutes 5 seconds 520 msec
+Ended Job = job_1478649307064_900932
+Launching Job 10 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1009
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:40:01 ERROR mr.ExecDriver: yarn
+16/12/20 10:40:01 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900968, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900968/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900968
+Hadoop job information for Stage-43: number of mappers: 5625; number of reducers: 1009
+16/12/20 10:40:16 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:40:16,725 Stage-43 map = 0%,  reduce = 0%
+2016-12-20 10:40:35,368 Stage-43 map = 9%,  reduce = 0%, Cumulative CPU 4623.17 sec
+2016-12-20 10:40:36,547 Stage-43 map = 17%,  reduce = 0%, Cumulative CPU 10335.58 sec
+2016-12-20 10:40:37,657 Stage-43 map = 24%,  reduce = 0%, Cumulative CPU 15700.89 sec
+2016-12-20 10:40:38,727 Stage-43 map = 28%,  reduce = 0%, Cumulative CPU 18993.44 sec
+2016-12-20 10:40:39,823 Stage-43 map = 32%,  reduce = 0%, Cumulative CPU 21717.06 sec
+2016-12-20 10:40:40,902 Stage-43 map = 35%,  reduce = 0%, Cumulative CPU 23900.72 sec
+2016-12-20 10:40:41,966 Stage-43 map = 38%,  reduce = 0%, Cumulative CPU 25778.75 sec
+2016-12-20 10:40:43,036 Stage-43 map = 39%,  reduce = 0%, Cumulative CPU 26869.23 sec
+2016-12-20 10:40:44,127 Stage-43 map = 41%,  reduce = 0%, Cumulative CPU 28090.1 sec
+2016-12-20 10:40:45,251 Stage-43 map = 47%,  reduce = 0%, Cumulative CPU 31410.18 sec
+2016-12-20 10:40:46,359 Stage-43 map = 54%,  reduce = 0%, Cumulative CPU 35985.24 sec
+2016-12-20 10:40:47,520 Stage-43 map = 60%,  reduce = 0%, Cumulative CPU 40760.4 sec
+2016-12-20 10:40:48,686 Stage-43 map = 63%,  reduce = 0%, Cumulative CPU 43569.86 sec
+2016-12-20 10:40:49,799 Stage-43 map = 65%,  reduce = 3%, Cumulative CPU 45927.12 sec
+2016-12-20 10:40:50,931 Stage-43 map = 66%,  reduce = 5%, Cumulative CPU 47550.9 sec
+2016-12-20 10:40:52,009 Stage-43 map = 67%,  reduce = 7%, Cumulative CPU 49201.51 sec
+2016-12-20 10:40:53,108 Stage-43 map = 68%,  reduce = 9%, Cumulative CPU 50619.8 sec
+2016-12-20 10:40:54,181 Stage-43 map = 70%,  reduce = 10%, Cumulative CPU 52366.97 sec
+2016-12-20 10:40:55,330 Stage-43 map = 75%,  reduce = 11%, Cumulative CPU 55494.89 sec
+2016-12-20 10:40:56,400 Stage-43 map = 80%,  reduce = 12%, Cumulative CPU 59621.84 sec
+2016-12-20 10:40:57,481 Stage-43 map = 84%,  reduce = 14%, Cumulative CPU 63373.4 sec
+2016-12-20 10:40:58,552 Stage-43 map = 89%,  reduce = 17%, Cumulative CPU 67318.8 sec
+2016-12-20 10:40:59,627 Stage-43 map = 91%,  reduce = 21%, Cumulative CPU 70457.1 sec
+2016-12-20 10:41:00,703 Stage-43 map = 94%,  reduce = 23%, Cumulative CPU 72739.97 sec
+2016-12-20 10:41:01,760 Stage-43 map = 95%,  reduce = 25%, Cumulative CPU 74349.29 sec
+2016-12-20 10:41:02,832 Stage-43 map = 97%,  reduce = 26%, Cumulative CPU 75837.37 sec
+2016-12-20 10:41:03,897 Stage-43 map = 97%,  reduce = 29%, Cumulative CPU 77116.0 sec
+2016-12-20 10:41:04,973 Stage-43 map = 98%,  reduce = 31%, Cumulative CPU 78406.08 sec
+2016-12-20 10:41:06,038 Stage-43 map = 99%,  reduce = 31%, Cumulative CPU 79599.3 sec
+2016-12-20 10:41:07,100 Stage-43 map = 99%,  reduce = 32%, Cumulative CPU 80526.82 sec
+2016-12-20 10:41:09,242 Stage-43 map = 99%,  reduce = 33%, Cumulative CPU 81371.99 sec
+2016-12-20 10:41:49,711 Stage-43 map = 100%,  reduce = 34%, Cumulative CPU 84009.78 sec
+2016-12-20 10:41:50,781 Stage-43 map = 100%,  reduce = 38%, Cumulative CPU 84262.32 sec
+2016-12-20 10:41:51,878 Stage-43 map = 100%,  reduce = 51%, Cumulative CPU 85455.82 sec
+2016-12-20 10:41:52,937 Stage-43 map = 100%,  reduce = 85%, Cumulative CPU 89728.85 sec
+2016-12-20 10:41:54,020 Stage-43 map = 100%,  reduce = 99%, Cumulative CPU 92174.28 sec
+2016-12-20 10:41:56,103 Stage-43 map = 100%,  reduce = 100%, Cumulative CPU 92410.17 sec
+MapReduce Total cumulative CPU time: 1 days 1 hours 40 minutes 10 seconds 170 msec
+Ended Job = job_1478649307064_900968
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959.log
+2016-12-20 10:42:01	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-20 10:42:05	Dump the side-table for tag: 0 with group count: 187197 into file: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10081/HashTable-Stage-112/MapJoin-mapfile370--.hashtable
+2016-12-20 10:42:05	Uploaded 1 File to: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10081/HashTable-Stage-112/MapJoin-mapfile370--.hashtable (12415590 bytes)
+2016-12-20 10:42:05	End of local task; Time Taken: 4.324 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161220103028_97874c4c-db19-4c03-953b-7403888e5959.log
+2016-12-20 10:42:09	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-20 10:42:12	Dump the side-table for tag: 0 with group count: 120891 into file: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10087/HashTable-Stage-118/MapJoin-mapfile410--.hashtable
+2016-12-20 10:42:12	Uploaded 1 File to: file:/tmp/hdp_oc_team/d2e5accc-0e9b-4a9f-b942-39042a987cab/hive_2016-12-20_10-30-28_839_8238545095787693892-1/-local-10087/HashTable-Stage-118/MapJoin-mapfile410--.hashtable (8018024 bytes)
+2016-12-20 10:42:12	End of local task; Time Taken: 2.998 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 11 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:42:14 ERROR mr.ExecDriver: yarn
+16/12/20 10:42:14 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_900999, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_900999/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_900999
+Hadoop job information for Stage-2: number of mappers: 241; number of reducers: 1
+16/12/20 10:42:22 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:42:22,139 Stage-2 map = 0%,  reduce = 0%
+2016-12-20 10:42:32,954 Stage-2 map = 45%,  reduce = 0%, Cumulative CPU 177.02 sec
+2016-12-20 10:42:33,997 Stage-2 map = 94%,  reduce = 0%, Cumulative CPU 425.65 sec
+2016-12-20 10:42:35,034 Stage-2 map = 98%,  reduce = 0%, Cumulative CPU 442.21 sec
+2016-12-20 10:42:36,058 Stage-2 map = 99%,  reduce = 0%, Cumulative CPU 458.88 sec
+2016-12-20 10:42:38,125 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 463.79 sec
+2016-12-20 10:42:43,285 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 474.93 sec
+MapReduce Total cumulative CPU time: 7 minutes 54 seconds 930 msec
+Ended Job = job_1478649307064_900999
+Launching Job 12 out of 61
+Number of reduce tasks is set to 0 since there's no reduce operator
+16/12/20 10:42:45 ERROR mr.ExecDriver: yarn
+16/12/20 10:42:45 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901007, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901007/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901007
+Hadoop job information for Stage-63: number of mappers: 1; number of reducers: 0
+16/12/20 10:42:52 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:42:52,815 Stage-63 map = 0%,  reduce = 0%
+2016-12-20 10:43:08,273 Stage-63 map = 100%,  reduce = 0%, Cumulative CPU 16.06 sec
+MapReduce Total cumulative CPU time: 16 seconds 60 msec
+Ended Job = job_1478649307064_901007
+Stage-125 is selected by condition resolver.
+Stage-126 is filtered out by condition resolver.
+Stage-12 is filtered out by condition resolver.
+Launching Job 14 out of 61
+Number of reduce tasks is set to 0 since there's no reduce operator
+16/12/20 10:43:10 ERROR mr.ExecDriver: yarn
+16/12/20 10:43:10 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901017, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901017/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901017
+Hadoop job information for Stage-85: number of mappers: 1; number of reducers: 0
+16/12/20 10:43:18 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:43:18,482 Stage-85 map = 0%,  reduce = 0%
+2016-12-20 10:43:29,842 Stage-85 map = 100%,  reduce = 0%, Cumulative CPU 33.17 sec
+MapReduce Total cumulative CPU time: 33 seconds 170 msec
+Ended Job = job_1478649307064_901017
+Launching Job 15 out of 61
+Number of reduce tasks is set to 0 since there's no reduce operator
+16/12/20 10:43:31 ERROR mr.ExecDriver: yarn
+16/12/20 10:43:31 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901023, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901023/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901023
+Hadoop job information for Stage-97: number of mappers: 1; number of reducers: 0
+16/12/20 10:43:38 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:43:38,590 Stage-97 map = 0%,  reduce = 0%
+2016-12-20 10:43:47,898 Stage-97 map = 100%,  reduce = 0%, Cumulative CPU 8.08 sec
+MapReduce Total cumulative CPU time: 8 seconds 80 msec
+Ended Job = job_1478649307064_901023
+Launching Job 16 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:43:50 ERROR mr.ExecDriver: yarn
+16/12/20 10:43:50 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901029, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901029/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901029
+Hadoop job information for Stage-38: number of mappers: 230; number of reducers: 1
+16/12/20 10:43:57 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:43:57,044 Stage-38 map = 0%,  reduce = 0%
+2016-12-20 10:44:08,623 Stage-38 map = 84%,  reduce = 0%, Cumulative CPU 288.43 sec
+2016-12-20 10:44:09,651 Stage-38 map = 99%,  reduce = 0%, Cumulative CPU 336.48 sec
+2016-12-20 10:44:13,745 Stage-38 map = 100%,  reduce = 0%, Cumulative CPU 339.51 sec
+2016-12-20 10:44:14,768 Stage-38 map = 100%,  reduce = 100%, Cumulative CPU 344.9 sec
+MapReduce Total cumulative CPU time: 5 minutes 44 seconds 900 msec
+Ended Job = job_1478649307064_901029
+Launching Job 17 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:44:16 ERROR mr.ExecDriver: yarn
+16/12/20 10:44:16 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901038, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901038/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901038
+Hadoop job information for Stage-41: number of mappers: 231; number of reducers: 1
+16/12/20 10:44:24 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:44:24,149 Stage-41 map = 0%,  reduce = 0%
+2016-12-20 10:44:35,828 Stage-41 map = 88%,  reduce = 0%, Cumulative CPU 306.59 sec
+2016-12-20 10:44:36,857 Stage-41 map = 99%,  reduce = 0%, Cumulative CPU 348.5 sec
+2016-12-20 10:44:42,188 Stage-41 map = 100%,  reduce = 0%, Cumulative CPU 352.17 sec
+2016-12-20 10:44:44,243 Stage-41 map = 100%,  reduce = 100%, Cumulative CPU 358.54 sec
+MapReduce Total cumulative CPU time: 5 minutes 58 seconds 540 msec
+Ended Job = job_1478649307064_901038
+Launching Job 18 out of 61
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 10:44:45 ERROR mr.ExecDriver: yarn
+16/12/20 10:44:45 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_901052, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_901052/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_901052
+Hadoop job information for Stage-44: number of mappers: 243; number of reducers: 1
+16/12/20 10:44:53 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 10:44:53,595 Stage-44 map = 0%,  reduce = 0%

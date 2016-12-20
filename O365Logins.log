@@ -1,0 +1,230 @@
+
+Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
+OK
+Time taken: 2.227 seconds
+FailedPredicateException(identifier,{useSQL11ReservedKeywordsForIdentifier()}?)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.identifier(HiveParser_IdentifiersParser.java:10924)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceFieldExpression(HiveParser_IdentifiersParser.java:6438)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceUnaryPrefixExpression(HiveParser_IdentifiersParser.java:6768)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceUnarySuffixExpression(HiveParser_IdentifiersParser.java:6828)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceBitwiseXorExpression(HiveParser_IdentifiersParser.java:7012)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceStarExpression(HiveParser_IdentifiersParser.java:7172)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedencePlusExpression(HiveParser_IdentifiersParser.java:7332)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceAmpersandExpression(HiveParser_IdentifiersParser.java:7483)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceBitwiseOrExpression(HiveParser_IdentifiersParser.java:7634)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceEqualExpression(HiveParser_IdentifiersParser.java:8164)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceNotExpression(HiveParser_IdentifiersParser.java:9177)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceAndExpression(HiveParser_IdentifiersParser.java:9296)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.precedenceOrExpression(HiveParser_IdentifiersParser.java:9455)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_IdentifiersParser.expression(HiveParser_IdentifiersParser.java:6105)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.expression(HiveParser.java:45827)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.searchCondition(HiveParser_FromClauseParser.java:6637)
+	at org.apache.hadoop.hive.ql.parse.HiveParser_FromClauseParser.whereClause(HiveParser_FromClauseParser.java:6545)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.whereClause(HiveParser.java:45816)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.selectStatement(HiveParser.java:41543)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.regularBody(HiveParser.java:41230)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.queryStatementExpressionBody(HiveParser.java:40413)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.queryStatementExpression(HiveParser.java:40283)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.execStatement(HiveParser.java:1590)
+	at org.apache.hadoop.hive.ql.parse.HiveParser.statement(HiveParser.java:1109)
+	at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:202)
+	at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:166)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:397)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:309)
+	at org.apache.hadoop.hive.ql.Driver.compileInternal(Driver.java:1138)
+	at org.apache.hadoop.hive.ql.Driver.runInternal(Driver.java:1186)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1075)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1065)
+	at org.apache.hadoop.hive.cli.CliDriver.processLocalCmd(CliDriver.java:213)
+	at org.apache.hadoop.hive.cli.CliDriver.processCmd(CliDriver.java:165)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:376)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:311)
+	at org.apache.hadoop.hive.cli.CliDriver.processReader(CliDriver.java:409)
+	at org.apache.hadoop.hive.cli.CliDriver.processFile(CliDriver.java:425)
+	at org.apache.hadoop.hive.cli.CliDriver.executeDriver(CliDriver.java:714)
+	at org.apache.hadoop.hive.cli.CliDriver.run(CliDriver.java:681)
+	at org.apache.hadoop.hive.cli.CliDriver.main(CliDriver.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+FAILED: ParseException line 9:8 Failed to recognize predicate 'user'. Failed rule: 'identifier' in expression specification
+16/12/20 04:00:49 ERROR ql.Driver: FAILED: ParseException line 9:8 Failed to recognize predicate 'user'. Failed rule: 'identifier' in expression specification
+org.apache.hadoop.hive.ql.parse.ParseException: line 9:8 Failed to recognize predicate 'user'. Failed rule: 'identifier' in expression specification
+	at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:205)
+	at org.apache.hadoop.hive.ql.parse.ParseDriver.parse(ParseDriver.java:166)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:397)
+	at org.apache.hadoop.hive.ql.Driver.compile(Driver.java:309)
+	at org.apache.hadoop.hive.ql.Driver.compileInternal(Driver.java:1138)
+	at org.apache.hadoop.hive.ql.Driver.runInternal(Driver.java:1186)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1075)
+	at org.apache.hadoop.hive.ql.Driver.run(Driver.java:1065)
+	at org.apache.hadoop.hive.cli.CliDriver.processLocalCmd(CliDriver.java:213)
+	at org.apache.hadoop.hive.cli.CliDriver.processCmd(CliDriver.java:165)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:376)
+	at org.apache.hadoop.hive.cli.CliDriver.processLine(CliDriver.java:311)
+	at org.apache.hadoop.hive.cli.CliDriver.processReader(CliDriver.java:409)
+	at org.apache.hadoop.hive.cli.CliDriver.processFile(CliDriver.java:425)
+	at org.apache.hadoop.hive.cli.CliDriver.executeDriver(CliDriver.java:714)
+	at org.apache.hadoop.hive.cli.CliDriver.run(CliDriver.java:681)
+	at org.apache.hadoop.hive.cli.CliDriver.main(CliDriver.java:621)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+
+16/12/20 04:00:51 INFO tool.ConnectorExportTool: ConnectorExportTool starts at 1482231651407
+16/12/20 04:00:52 INFO common.ConnectorPlugin: load plugins in file:/tmp/hadoop-unjar2978633470664243084/teradata.connector.plugins.xml
+16/12/20 04:00:53 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482231653086
+16/12/20 04:00:54 INFO utils.TeradataUtils: the output database product is Teradata
+16/12/20 04:00:54 INFO utils.TeradataUtils: the output database version is 15.0
+16/12/20 04:00:54 INFO utils.TeradataUtils: the jdbc driver version is 15.0
+16/12/20 04:00:54 INFO processor.TeradataOutputProcessor: the teradata connector for hadoop version is: 1.4.2
+16/12/20 04:00:54 INFO processor.TeradataOutputProcessor: output jdbc properties are jdbc:teradata://godaddy3.prod.phx3.gdg/DATABASE=P_HadoopImp_S
+16/12/20 04:00:57 INFO processor.TeradataBatchInsertProcessor: create output stage table STG_O365_LOGINS_040056637the sql is CREATE MULTISET TABLE "STG_O365_LOGINS_040056637", DATABLOCKSIZE = 130048 BYTES, NO FALLBACK, NO BEFORE JOURNAL, NO AFTER JOURNAL, CHECKSUM = DEFAULT ("SHOPPER_ID" VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "LOGIN_DATE_TXT" VARCHAR(100) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "TDCH_BI_TASKID" VARCHAR(40) NOT CASESPECIFIC NULL) NO PRIMARY INDEX  
+16/12/20 04:00:57 INFO processor.TeradataOutputProcessor: the number of mappers are 144
+16/12/20 04:00:57 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482231657104
+16/12/20 04:00:57 INFO processor.TeradataOutputProcessor: the total elapsed time of output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 4s
+16/12/20 04:01:00 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 20991434 for hdp_oc_team on ha-hdfs:production
+16/12/20 04:01:00 INFO security.TokenCache: Got dt for hdfs://production; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20991434 for hdp_oc_team)
+16/12/20 04:01:04 INFO mapreduce.JobSubmitter: Cleaning up the staging area /user/hdp_oc_team/.staging/job_1478649307064_891116
+16/12/20 04:01:04 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482231664374
+16/12/20 04:01:06 INFO processor.TeradataBatchInsertProcessor: drop stage table "STG_O365_LOGINS_040056637"
+16/12/20 04:01:06 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482231664374
+16/12/20 04:01:06 INFO processor.TeradataOutputProcessor: the total elapsed time of output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 2s
+16/12/20 04:01:06 INFO tool.ConnectorExportTool: com.teradata.connector.common.exception.ConnectorException: org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: /user/hdp_oc_team/hdp_oc_team.db/O365Logins
+	at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.singleThreadedListStatus(FileInputFormat.java:323)
+	at org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:265)
+	at com.teradata.connector.common.ConnectorCombineInputFormat$ConnectorCombineFileInputFormat.getJobSize(ConnectorCombineInputFormat.java:330)
+	at com.teradata.connector.common.ConnectorCombineInputFormat$ConnectorCombineFileInputFormat.getSplits(ConnectorCombineInputFormat.java:260)
+	at com.teradata.connector.common.ConnectorCombineInputFormat.getSplits(ConnectorCombineInputFormat.java:53)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeNewSplits(JobSubmitter.java:301)
+	at org.apache.hadoop.mapreduce.JobSubmitter.writeSplits(JobSubmitter.java:318)
+	at org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:196)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1290)
+	at org.apache.hadoop.mapreduce.Job$10.run(Job.java:1287)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:1287)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1308)
+	at com.teradata.connector.common.tool.ConnectorJobRunner.runJob(ConnectorJobRunner.java:134)
+	at com.teradata.connector.common.tool.ConnectorExportTool.run(ConnectorExportTool.java:62)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:84)
+	at com.teradata.hadoop.tool.TeradataExportTool.main(TeradataExportTool.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+
+	at com.teradata.connector.common.tool.ConnectorJobRunner.runJob(ConnectorJobRunner.java:140)
+	at com.teradata.connector.common.tool.ConnectorExportTool.run(ConnectorExportTool.java:62)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:84)
+	at com.teradata.hadoop.tool.TeradataExportTool.main(TeradataExportTool.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+
+16/12/20 04:01:06 INFO tool.ConnectorExportTool: job completed with exit code 10000
+BTEQ 15.00.00.02 Tue Dec 20 04:01:07 2016 PID: 19070
+ 
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ECHOREQ ON
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ERROROUT STDOUT
+ *** Error messages now directed to STDOUT.
++---------+---------+---------+---------+---------+---------+---------+----
+.SET WIDTH 256
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+.LOGON godaddy3.prod.phx3.gdg/P_BTCH_HadoopImp,
+
+ *** Logon successfully completed.
+ *** Teradata Database Release is 15.00.02.03                   
+ *** Teradata Database Version is 15.00.02.05                     
+ *** Transaction Semantics are BTET.
+ *** Session Character Set Name is 'ASCII'.
+ 
+ *** Total elapsed time was 1 second.
+ 
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+SELECT TOP 1 * FROM P_HadoopImp_S.STG_O365_LOGINS;
+
+ *** Query completed. No rows found. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ACTIVITYCOUNT = 0 THEN .GOTO E086
+.GOTO E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DROP TABLE P_ARM_IMPORT.O365_LOGINS;
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+CREATE TABLE P_ARM_IMPORT.O365_LOGINS AS 
+(SELECT SHOPPER_ID, CAST(LOGIN_DATE_TXT AS DATE FORMAT 'YYYY-MM-DD') AS LOGIN_DATE
+FROM P_HadoopImp_S.STG_O365_LOGINS
+GROUP BY 1,2)
+WITH DATA
+PRIMARY INDEX (SHOPPER_ID);
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS P_ARM_IMPORT.O365_LOGINS COLUMN(SHOPPER_ID);
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATS P_ARM_IMPORT.O365_LOGINS COLUMN(LOGIN_DATE);
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATS P_ARM_IMPORT.O365_LOGINS COLUMN(SHOPPER_ID,LOGIN_DATE);
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_HADOOPIMP_S.STG_O365_LOGINS ALL;
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+--  086 - Good exit
+------------------------------------------------------------------------
+
+.LABEL E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.LOGOFF
+ *** You are now logged off from the DBC.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.QUIT
+ *** Exiting BTEQ...
+ *** RC (return code) = 0 

@@ -1,0 +1,234 @@
+
+Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
+OK
+Time taken: 2.537 seconds
+Query ID = hdp_oc_team_20161219050048_51d6fecc-f983-4524-9aaf-b51d5d81a747
+Total jobs = 4
+Launching Job 1 out of 4
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/19 05:00:52 ERROR mr.ExecDriver: yarn
+16/12/19 05:00:53 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_868467, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_868467/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_868467
+Hadoop job information for Stage-1: number of mappers: 8; number of reducers: 1
+16/12/19 05:01:14 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-19 05:01:14,934 Stage-1 map = 0%,  reduce = 0%
+2016-12-19 05:01:29,742 Stage-1 map = 13%,  reduce = 0%, Cumulative CPU 5.79 sec
+2016-12-19 05:01:30,814 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 12.51 sec
+2016-12-19 05:01:31,855 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 20.77 sec
+2016-12-19 05:01:35,015 Stage-1 map = 63%,  reduce = 0%, Cumulative CPU 28.16 sec
+2016-12-19 05:01:36,069 Stage-1 map = 88%,  reduce = 0%, Cumulative CPU 45.04 sec
+2016-12-19 05:01:38,377 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 53.63 sec
+2016-12-19 05:01:40,488 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 57.67 sec
+MapReduce Total cumulative CPU time: 57 seconds 670 msec
+Ended Job = job_1478649307064_868467
+Stage-8 is selected by condition resolver.
+Stage-9 is filtered out by condition resolver.
+Stage-2 is filtered out by condition resolver.
+Execution log at: /tmp/hdp_oc_team/hdp_oc_team_20161219050048_51d6fecc-f983-4524-9aaf-b51d5d81a747.log
+2016-12-19 05:01:46	Starting to launch local task to process map join;	maximum memory = 2092433408
+2016-12-19 05:01:47	Dump the side-table for tag: 1 with group count: 0 into file: file:/tmp/hdp_oc_team/a4a9a410-7928-495f-9f76-2666fbe4bb91/hive_2016-12-19_05-00-48_572_8338344659811631236-1/-local-10003/HashTable-Stage-5/MapJoin-mapfile01--.hashtable
+2016-12-19 05:01:47	Uploaded 1 File to: file:/tmp/hdp_oc_team/a4a9a410-7928-495f-9f76-2666fbe4bb91/hive_2016-12-19_05-00-48_572_8338344659811631236-1/-local-10003/HashTable-Stage-5/MapJoin-mapfile01--.hashtable (260 bytes)
+2016-12-19 05:01:47	End of local task; Time Taken: 1.468 sec.
+Execution completed successfully
+MapredLocal task succeeded
+Launching Job 3 out of 4
+Number of reduce tasks is set to 0 since there's no reduce operator
+16/12/19 05:01:48 ERROR mr.ExecDriver: yarn
+16/12/19 05:01:48 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_868522, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_868522/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_868522
+Hadoop job information for Stage-5: number of mappers: 8; number of reducers: 0
+16/12/19 05:02:04 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-19 05:02:04,025 Stage-5 map = 0%,  reduce = 0%
+2016-12-19 05:02:43,481 Stage-5 map = 13%,  reduce = 0%, Cumulative CPU 10.28 sec
+2016-12-19 05:02:44,519 Stage-5 map = 38%,  reduce = 0%, Cumulative CPU 28.23 sec
+2016-12-19 05:02:45,556 Stage-5 map = 50%,  reduce = 0%, Cumulative CPU 32.62 sec
+2016-12-19 05:02:53,811 Stage-5 map = 63%,  reduce = 0%, Cumulative CPU 44.56 sec
+2016-12-19 05:02:56,909 Stage-5 map = 75%,  reduce = 0%, Cumulative CPU 53.05 sec
+2016-12-19 05:02:59,104 Stage-5 map = 88%,  reduce = 0%, Cumulative CPU 57.3 sec
+2016-12-19 05:03:04,307 Stage-5 map = 100%,  reduce = 0%, Cumulative CPU 67.85 sec
+MapReduce Total cumulative CPU time: 1 minutes 7 seconds 850 msec
+Ended Job = job_1478649307064_868522
+Loading data to table hdp_oc_team.shopnpsurl
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000000_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000001_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000002_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000003_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000004_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000005_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000006_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopnpsurl/000007_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Table hdp_oc_team.shopnpsurl stats: [numFiles=8, numRows=0, totalSize=0, rawDataSize=0]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 8  Reduce: 1   Cumulative CPU: 57.67 sec   HDFS Read: 170943 HDFS Write: 96 SUCCESS
+Stage-Stage-5: Map: 8   Cumulative CPU: 67.85 sec   HDFS Read: 14178966 HDFS Write: 384 SUCCESS
+Total MapReduce CPU Time Spent: 2 minutes 5 seconds 520 msec
+OK
+Time taken: 151.213 seconds
+16/12/19 05:03:21 INFO tool.ConnectorExportTool: ConnectorExportTool starts at 1482149001105
+16/12/19 05:03:21 INFO common.ConnectorPlugin: load plugins in file:/tmp/hadoop-unjar3024787125906114015/teradata.connector.plugins.xml
+16/12/19 05:03:21 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482149001842
+16/12/19 05:03:22 INFO utils.TeradataUtils: the output database product is Teradata
+16/12/19 05:03:22 INFO utils.TeradataUtils: the output database version is 15.0
+16/12/19 05:03:22 INFO utils.TeradataUtils: the jdbc driver version is 15.0
+16/12/19 05:03:22 INFO processor.TeradataOutputProcessor: the teradata connector for hadoop version is: 1.4.2
+16/12/19 05:03:22 INFO processor.TeradataOutputProcessor: output jdbc properties are jdbc:teradata://godaddy3.prod.phx3.gdg/DATABASE=P_HadoopImp_S
+16/12/19 05:03:23 INFO processor.TeradataBatchInsertProcessor: create output stage table ShopNPSURL_STG_050322887the sql is CREATE MULTISET TABLE "ShopNPSURL_STG_050322887", DATABLOCKSIZE = 130048 BYTES, NO FALLBACK, NO BEFORE JOURNAL, NO AFTER JOURNAL, CHECKSUM = DEFAULT ("ShopAcctID" VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "ShopNPSURL" VARCHAR(8000) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "TDCH_BI_TASKID" VARCHAR(40) NOT CASESPECIFIC NULL) NO PRIMARY INDEX  
+16/12/19 05:03:23 INFO processor.TeradataOutputProcessor: the number of mappers are 144
+16/12/19 05:03:23 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482149003145
+16/12/19 05:03:23 INFO processor.TeradataOutputProcessor: the total elapsed time of output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 1s
+16/12/19 05:03:24 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 20962606 for hdp_oc_team on ha-hdfs:production
+16/12/19 05:03:24 INFO security.TokenCache: Got dt for hdfs://production; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20962606 for hdp_oc_team)
+16/12/19 05:03:25 INFO input.FileInputFormat: Total input paths to process : 8
+16/12/19 05:03:25 INFO input.FileInputFormat: Total input paths to process : 8
+16/12/19 05:03:25 INFO input.CombineFileInputFormat: DEBUG: Terminated node allocation with : CompletedNodes: 0, size left: 0
+16/12/19 05:03:25 WARN mapred.ResourceMgrDelegate: getBlacklistedTrackers - Not implemented yet
+16/12/19 05:03:26 INFO mapreduce.JobSubmitter: number of splits:1
+16/12/19 05:03:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1478649307064_868559
+16/12/19 05:03:27 INFO mapreduce.JobSubmitter: Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20962606 for hdp_oc_team)
+16/12/19 05:03:28 INFO impl.YarnClientImpl: Submitted application application_1478649307064_868559
+16/12/19 05:03:28 INFO mapreduce.Job: The url to track the job: http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_868559/
+16/12/19 05:03:28 INFO mapreduce.Job: Running job: job_1478649307064_868559
+16/12/19 05:03:45 INFO mapreduce.Job: Job job_1478649307064_868559 running in uber mode : false
+16/12/19 05:03:45 INFO mapreduce.Job:  map 0% reduce 0%
+16/12/19 05:04:15 INFO mapreduce.Job:  map 100% reduce 0%
+16/12/19 05:04:15 INFO mapreduce.Job: Job job_1478649307064_868559 completed successfully
+16/12/19 05:04:16 INFO mapreduce.Job: Counters: 30
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=139994
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=763
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=9
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=1
+		Other local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=12878
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=6439
+		Total vcore-milliseconds taken by all map tasks=6439
+		Total megabyte-milliseconds taken by all map tasks=26374144
+	Map-Reduce Framework
+		Map input records=0
+		Map output records=0
+		Input split bytes=763
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=76
+		CPU time spent (ms)=3490
+		Physical memory (bytes) snapshot=350765056
+		Virtual memory (bytes) snapshot=4191342592
+		Total committed heap usage (bytes)=411041792
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+16/12/19 05:04:16 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482149056055
+16/12/19 05:04:16 INFO processor.TeradataBatchInsertProcessor: insert from staget table to target table 
+16/12/19 05:04:16 INFO processor.TeradataBatchInsertProcessor: the insert select sql starts at: 1482149056168
+16/12/19 05:04:16 INFO processor.TeradataBatchInsertProcessor: the insert select sql ends at: 1482149056400
+16/12/19 05:04:16 INFO processor.TeradataBatchInsertProcessor: the total elapsed time of the insert select sql  is: 0s
+16/12/19 05:04:16 INFO processor.TeradataBatchInsertProcessor: drop stage table "ShopNPSURL_STG_050322887"
+16/12/19 05:04:16 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482149056055
+16/12/19 05:04:16 INFO processor.TeradataOutputProcessor: the total elapsed time of output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 0s
+16/12/19 05:04:16 INFO tool.ConnectorExportTool: ConnectorExportTool ends at 1482149056506
+16/12/19 05:04:16 INFO tool.ConnectorExportTool: ConnectorExportTool time is 55s
+16/12/19 05:04:16 INFO tool.ConnectorExportTool: job completed with exit code 0
+BTEQ 15.00.00.02 Mon Dec 19 05:04:16 2016 PID: 29626
+ 
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ECHOREQ ON
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ERROROUT STDOUT
+ *** Error messages now directed to STDOUT.
++---------+---------+---------+---------+---------+---------+---------+----
+.SET WIDTH 256
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+.LOGON godaddy3.prod.phx3.gdg/P_BTCH_HadoopImp,
+
+ *** Logon successfully completed.
+ *** Teradata Database Release is 15.00.02.03                   
+ *** Teradata Database Version is 15.00.02.05                     
+ *** Transaction Semantics are BTET.
+ *** Session Character Set Name is 'ASCII'.
+ 
+ *** Total elapsed time was 1 second.
+ 
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+SELECT TOP 1 * FROM P_HadoopImp_S.ShopNPSURL_STG;
+
+ *** Query completed. No rows found. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ACTIVITYCOUNT = 0 THEN .GOTO E086
+.GOTO E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_ARM_IMPORT.ShopNPSURL ALL;
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+INSERT INTO P_ARM_IMPORT.ShopNPSURL
+SELECT 
+ShopAcctID,
+ShopNPSURL as NPSURL,
+CURRENT_DATE as LoadDt
+FROM P_HadoopImp_S.ShopNPSURL_STG;
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS P_ARM_IMPORT.ShopNPSURL COLUMN(ShopAcctID);
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_HADOOPIMP_S.ShopNPSURL_STG ALL;
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
+ *** Skipped.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+--  086 - Good exit
+------------------------------------------------------------------------
+
+.LABEL E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.LOGOFF
+ *** You are now logged off from the DBC.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.QUIT
+ *** Exiting BTEQ...
+ *** RC (return code) = 0 

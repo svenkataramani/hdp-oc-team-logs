@@ -1,0 +1,259 @@
+16/12/20 07:30:03 INFO tool.ConnectorExportTool: ConnectorExportTool starts at 1482244203673
+16/12/20 07:30:05 INFO common.ConnectorPlugin: load plugins in file:/tmp/hadoop-unjar5960154343817974557/teradata.connector.plugins.xml
+16/12/20 07:30:06 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482244206027
+16/12/20 07:30:07 INFO utils.TeradataUtils: the output database product is Teradata
+16/12/20 07:30:07 INFO utils.TeradataUtils: the output database version is 15.0
+16/12/20 07:30:07 INFO utils.TeradataUtils: the jdbc driver version is 15.0
+16/12/20 07:30:08 INFO processor.TeradataOutputProcessor: the teradata connector for hadoop version is: 1.4.2
+16/12/20 07:30:08 INFO processor.TeradataOutputProcessor: output jdbc properties are jdbc:teradata://godaddy3.prod.phx3.gdg/DATABASE=P_HadoopImp_S
+16/12/20 07:30:09 INFO processor.TeradataBatchInsertProcessor: output staging table is not needed
+16/12/20 07:30:09 INFO processor.TeradataOutputProcessor: the number of mappers are 144
+16/12/20 07:30:09 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482244209551
+16/12/20 07:30:09 INFO processor.TeradataOutputProcessor: the total elapsed time of output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 3s
+16/12/20 07:30:14 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 20996972 for hdp_oc_team on ha-hdfs:production
+16/12/20 07:30:14 INFO security.TokenCache: Got dt for hdfs://production; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20996972 for hdp_oc_team)
+16/12/20 07:30:15 INFO input.FileInputFormat: Total input paths to process : 200
+16/12/20 07:30:15 INFO input.FileInputFormat: Total input paths to process : 200
+16/12/20 07:30:17 INFO input.CombineFileInputFormat: DEBUG: Terminated node allocation with : CompletedNodes: 282, size left: 1792725594
+16/12/20 07:30:17 INFO mapreduce.JobSubmitter: number of splits:100
+16/12/20 07:30:17 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1478649307064_896174
+16/12/20 07:30:17 INFO mapreduce.JobSubmitter: Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20996972 for hdp_oc_team)
+16/12/20 07:30:18 INFO impl.YarnClientImpl: Submitted application application_1478649307064_896174
+16/12/20 07:30:18 INFO mapreduce.Job: The url to track the job: http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_896174/
+16/12/20 07:30:18 INFO mapreduce.Job: Running job: job_1478649307064_896174
+16/12/20 07:30:40 INFO mapreduce.Job: Job job_1478649307064_896174 running in uber mode : false
+16/12/20 07:30:40 INFO mapreduce.Job:  map 0% reduce 0%
+16/12/20 07:31:07 INFO mapreduce.Job:  map 1% reduce 0%
+16/12/20 07:31:08 INFO mapreduce.Job:  map 2% reduce 0%
+16/12/20 07:31:09 INFO mapreduce.Job:  map 3% reduce 0%
+16/12/20 07:31:10 INFO mapreduce.Job:  map 4% reduce 0%
+16/12/20 07:31:11 INFO mapreduce.Job:  map 5% reduce 0%
+16/12/20 07:31:13 INFO mapreduce.Job:  map 6% reduce 0%
+16/12/20 07:31:14 INFO mapreduce.Job:  map 7% reduce 0%
+16/12/20 07:31:15 INFO mapreduce.Job:  map 8% reduce 0%
+16/12/20 07:31:16 INFO mapreduce.Job:  map 9% reduce 0%
+16/12/20 07:31:17 INFO mapreduce.Job:  map 11% reduce 0%
+16/12/20 07:31:18 INFO mapreduce.Job:  map 12% reduce 0%
+16/12/20 07:31:19 INFO mapreduce.Job:  map 13% reduce 0%
+16/12/20 07:31:20 INFO mapreduce.Job:  map 14% reduce 0%
+16/12/20 07:31:21 INFO mapreduce.Job:  map 16% reduce 0%
+16/12/20 07:31:22 INFO mapreduce.Job:  map 17% reduce 0%
+16/12/20 07:31:23 INFO mapreduce.Job:  map 19% reduce 0%
+16/12/20 07:31:24 INFO mapreduce.Job:  map 20% reduce 0%
+16/12/20 07:31:25 INFO mapreduce.Job:  map 21% reduce 0%
+16/12/20 07:31:26 INFO mapreduce.Job:  map 22% reduce 0%
+16/12/20 07:31:27 INFO mapreduce.Job:  map 23% reduce 0%
+16/12/20 07:31:28 INFO mapreduce.Job:  map 24% reduce 0%
+16/12/20 07:31:29 INFO mapreduce.Job:  map 25% reduce 0%
+16/12/20 07:31:30 INFO mapreduce.Job:  map 26% reduce 0%
+16/12/20 07:31:32 INFO mapreduce.Job:  map 28% reduce 0%
+16/12/20 07:31:33 INFO mapreduce.Job:  map 29% reduce 0%
+16/12/20 07:31:34 INFO mapreduce.Job:  map 30% reduce 0%
+16/12/20 07:31:35 INFO mapreduce.Job:  map 32% reduce 0%
+16/12/20 07:31:36 INFO mapreduce.Job:  map 33% reduce 0%
+16/12/20 07:31:37 INFO mapreduce.Job:  map 34% reduce 0%
+16/12/20 07:31:38 INFO mapreduce.Job:  map 36% reduce 0%
+16/12/20 07:31:39 INFO mapreduce.Job:  map 37% reduce 0%
+16/12/20 07:31:40 INFO mapreduce.Job:  map 38% reduce 0%
+16/12/20 07:31:41 INFO mapreduce.Job:  map 39% reduce 0%
+16/12/20 07:31:42 INFO mapreduce.Job:  map 41% reduce 0%
+16/12/20 07:31:44 INFO mapreduce.Job:  map 42% reduce 0%
+16/12/20 07:31:45 INFO mapreduce.Job:  map 44% reduce 0%
+16/12/20 07:31:47 INFO mapreduce.Job:  map 46% reduce 0%
+16/12/20 07:31:48 INFO mapreduce.Job:  map 47% reduce 0%
+16/12/20 07:31:49 INFO mapreduce.Job:  map 48% reduce 0%
+16/12/20 07:31:51 INFO mapreduce.Job:  map 49% reduce 0%
+16/12/20 07:31:53 INFO mapreduce.Job:  map 50% reduce 0%
+16/12/20 07:31:54 INFO mapreduce.Job:  map 51% reduce 0%
+16/12/20 07:31:57 INFO mapreduce.Job:  map 52% reduce 0%
+16/12/20 07:32:00 INFO mapreduce.Job:  map 53% reduce 0%
+16/12/20 07:32:03 INFO mapreduce.Job:  map 54% reduce 0%
+16/12/20 07:32:08 INFO mapreduce.Job:  map 55% reduce 0%
+16/12/20 07:32:14 INFO mapreduce.Job:  map 56% reduce 0%
+16/12/20 07:32:19 INFO mapreduce.Job:  map 57% reduce 0%
+16/12/20 07:32:27 INFO mapreduce.Job:  map 58% reduce 0%
+16/12/20 07:32:32 INFO mapreduce.Job:  map 59% reduce 0%
+16/12/20 07:32:37 INFO mapreduce.Job:  map 60% reduce 0%
+16/12/20 07:32:42 INFO mapreduce.Job:  map 61% reduce 0%
+16/12/20 07:32:47 INFO mapreduce.Job:  map 62% reduce 0%
+16/12/20 07:32:53 INFO mapreduce.Job:  map 63% reduce 0%
+16/12/20 07:32:57 INFO mapreduce.Job:  map 64% reduce 0%
+16/12/20 07:33:01 INFO mapreduce.Job:  map 65% reduce 0%
+16/12/20 07:33:05 INFO mapreduce.Job:  map 66% reduce 0%
+16/12/20 07:33:09 INFO mapreduce.Job:  map 67% reduce 0%
+16/12/20 07:33:15 INFO mapreduce.Job:  map 68% reduce 0%
+16/12/20 07:33:21 INFO mapreduce.Job:  map 69% reduce 0%
+16/12/20 07:33:28 INFO mapreduce.Job:  map 70% reduce 0%
+16/12/20 07:33:34 INFO mapreduce.Job:  map 71% reduce 0%
+16/12/20 07:33:45 INFO mapreduce.Job:  map 72% reduce 0%
+16/12/20 07:33:54 INFO mapreduce.Job:  map 73% reduce 0%
+16/12/20 07:34:01 INFO mapreduce.Job:  map 74% reduce 0%
+16/12/20 07:34:10 INFO mapreduce.Job:  map 75% reduce 0%
+16/12/20 07:34:17 INFO mapreduce.Job:  map 76% reduce 0%
+16/12/20 07:34:27 INFO mapreduce.Job:  map 77% reduce 0%
+16/12/20 07:34:28 INFO mapreduce.Job:  map 76% reduce 0%
+16/12/20 07:34:29 INFO mapreduce.Job:  map 77% reduce 0%
+16/12/20 07:34:41 INFO mapreduce.Job:  map 78% reduce 0%
+16/12/20 07:34:50 INFO mapreduce.Job:  map 79% reduce 0%
+16/12/20 07:34:56 INFO mapreduce.Job:  map 80% reduce 0%
+16/12/20 07:35:06 INFO mapreduce.Job:  map 81% reduce 0%
+16/12/20 07:35:14 INFO mapreduce.Job:  map 82% reduce 0%
+16/12/20 07:35:23 INFO mapreduce.Job:  map 83% reduce 0%
+16/12/20 07:35:32 INFO mapreduce.Job:  map 84% reduce 0%
+16/12/20 07:35:39 INFO mapreduce.Job:  map 85% reduce 0%
+16/12/20 07:35:49 INFO mapreduce.Job:  map 86% reduce 0%
+16/12/20 07:35:57 INFO mapreduce.Job:  map 87% reduce 0%
+16/12/20 07:36:00 INFO mapreduce.Job:  map 88% reduce 0%
+16/12/20 07:36:06 INFO mapreduce.Job:  map 89% reduce 0%
+16/12/20 07:36:11 INFO mapreduce.Job:  map 90% reduce 0%
+16/12/20 07:36:16 INFO mapreduce.Job:  map 91% reduce 0%
+16/12/20 07:36:22 INFO mapreduce.Job:  map 92% reduce 0%
+16/12/20 07:36:27 INFO mapreduce.Job:  map 93% reduce 0%
+16/12/20 07:36:34 INFO mapreduce.Job:  map 94% reduce 0%
+16/12/20 07:36:40 INFO mapreduce.Job:  map 95% reduce 0%
+16/12/20 07:36:44 INFO mapreduce.Job:  map 96% reduce 0%
+16/12/20 07:36:49 INFO mapreduce.Job:  map 97% reduce 0%
+16/12/20 07:36:55 INFO mapreduce.Job:  map 98% reduce 0%
+16/12/20 07:37:00 INFO mapreduce.Job:  map 99% reduce 0%
+16/12/20 07:37:07 INFO mapreduce.Job:  map 100% reduce 0%
+16/12/20 07:37:23 INFO mapreduce.Job: Job job_1478649307064_896174 completed successfully
+16/12/20 07:37:24 INFO mapreduce.Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=13921294
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=19850625206
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=300
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=100
+		Other local map tasks=20
+		Data-local map tasks=22
+		Rack-local map tasks=58
+		Total time spent by all maps in occupied slots (ms)=41699174
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=20849587
+		Total vcore-milliseconds taken by all map tasks=20849587
+		Total megabyte-milliseconds taken by all map tasks=85399908352
+	Map-Reduce Framework
+		Map input records=31120170
+		Map output records=31120170
+		Input split bytes=23500
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=183513
+		CPU time spent (ms)=2574600
+		Physical memory (bytes) snapshot=40922349568
+		Virtual memory (bytes) snapshot=420233568256
+		Total committed heap usage (bytes)=37449891840
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+16/12/20 07:37:24 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482244644147
+16/12/20 07:37:24 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482244644147
+16/12/20 07:37:24 INFO processor.TeradataOutputProcessor: the total elapsed time of output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 0s
+16/12/20 07:37:24 INFO tool.ConnectorExportTool: ConnectorExportTool ends at 1482244644304
+16/12/20 07:37:24 INFO tool.ConnectorExportTool: ConnectorExportTool time is 440s
+16/12/20 07:37:24 INFO tool.ConnectorExportTool: job completed with exit code 0
+BTEQ 15.00.00.02 Tue Dec 20 07:37:24 2016 PID: 16788
+ 
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ECHOREQ ON
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ERROROUT STDOUT
+ *** Error messages now directed to STDOUT.
++---------+---------+---------+---------+---------+---------+---------+----
+.SET WIDTH 256
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+.LOGON godaddy3.prod.phx3.gdg/P_BTCH_HadoopImp,
+
+ *** Logon successfully completed.
+ *** Teradata Database Release is 15.00.02.03                   
+ *** Teradata Database Version is 15.00.02.05                     
+ *** Transaction Semantics are BTET.
+ *** Session Character Set Name is 'ASCII'.
+ 
+ *** Total elapsed time was 1 second.
+ 
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+SELECT TOP 1 * FROM P_HADOOPIMP_S.ShopDomainRcmnd_STG;
+
+ *** Query completed. One row found. One column returned. 
+ *** Total elapsed time was 1 second.
+
+DomainRcmndJSON
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{"cc": "us", "shopper_id": "104402390", "purchased": "", "domains": [{"suggest_type": "full_name", "price": "", "domain_name": "thomaswanat.com", "domain_seed": "", "score": 1.5, "inventory": "personal_name_com"}, {"suggest_type": "full_name", "price": "",
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ACTIVITYCOUNT = 0 THEN .GOTO E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_ARM_IMPORT.ShopDomainRcmnd ALL;
+
+ *** Delete completed. 31120170 rows removed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+INSERT INTO P_ARM_IMPORT.ShopDomainRcmnd
+SELECT cast(DomainRcmndJSON.JSONEXTRACTVALUE('$.shopper_id') AS VARCHAR(10)) as shopper_id, DomainRcmndJSON
+from P_HADOOPIMP_S.ShopDomainRcmnd_STG;
+
+ *** Insert completed. 31120170 rows added. 
+ *** Total elapsed time was 7 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS P_ARM_IMPORT.ShopDomainRcmnd COLUMN(shopper_id);
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_HADOOPIMP_S.ShopDomainRcmnd_STG ALL;
+
+ *** Delete completed. 31120170 rows removed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+--  086 - Good exit
+------------------------------------------------------------------------
+
+.LABEL E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.LOGOFF
+ *** You are now logged off from the DBC.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.QUIT
+ *** Exiting BTEQ...
+ *** RC (return code) = 0 

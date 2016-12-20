@@ -1,0 +1,674 @@
+
+Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
+OK
+Time taken: 3.371 seconds
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.shopper_id was overwritten in RowResolver map: _col1: string by _col1: string
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.date_entered was overwritten in RowResolver map: _col2: timestamp by _col2: timestamp
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.order_id was overwritten in RowResolver map: _col3: string by _col3: string
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.row_id was overwritten in RowResolver map: _col4: int by _col4: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.resource_id was overwritten in RowResolver map: _col5: int by _col5: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.gdshop_billing_attemptid was overwritten in RowResolver map: _col6: int by _col6: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.adjusted_price was overwritten in RowResolver map: _col7: int by _col7: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for brh.gdshop_product_typeid was overwritten in RowResolver map: _col8: int by _col8: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.cpl_id was overwritten in RowResolver map: _col9: int by _col9: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.billing_attempt was overwritten in RowResolver map: _col10: int by _col10: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.response_code was overwritten in RowResolver map: _col11: smallint by _col11: smallint
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.reason_code was overwritten in RowResolver map: _col12: smallint by _col12: smallint
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.source was overwritten in RowResolver map: _col13: string by _col13: string
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.billing_country_code was overwritten in RowResolver map: _col14: string by _col14: string
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.total was overwritten in RowResolver map: _col15: int by _col15: int
+16/12/20 05:00:44 WARN parse.RowResolver: Duplicate column info for cpl.attempts was overwritten in RowResolver map: _col16: tinyint by _col16: tinyint
+Query ID = hdp_oc_team_20161220050043_79e625fa-d76d-4a50-bc3b-bf9508f8401a
+Total jobs = 2
+Stage-1 is selected by condition resolver.
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 334
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 05:00:47 ERROR mr.ExecDriver: yarn
+16/12/20 05:00:48 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_892908, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_892908/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_892908
+Hadoop job information for Stage-1: number of mappers: 242; number of reducers: 334
+16/12/20 05:01:00 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 05:01:00,211 Stage-1 map = 0%,  reduce = 0%
+2016-12-20 05:01:43,701 Stage-1 map = 1%,  reduce = 0%, Cumulative CPU 8538.11 sec
+2016-12-20 05:01:45,809 Stage-1 map = 2%,  reduce = 0%, Cumulative CPU 9117.26 sec
+2016-12-20 05:01:46,851 Stage-1 map = 3%,  reduce = 0%, Cumulative CPU 9387.21 sec
+2016-12-20 05:01:47,882 Stage-1 map = 4%,  reduce = 0%, Cumulative CPU 9699.71 sec
+2016-12-20 05:01:49,201 Stage-1 map = 10%,  reduce = 0%, Cumulative CPU 10007.22 sec
+2016-12-20 05:01:50,262 Stage-1 map = 15%,  reduce = 0%, Cumulative CPU 10359.34 sec
+2016-12-20 05:01:51,311 Stage-1 map = 19%,  reduce = 0%, Cumulative CPU 10627.31 sec
+2016-12-20 05:01:52,341 Stage-1 map = 24%,  reduce = 0%, Cumulative CPU 10850.7 sec
+2016-12-20 05:01:53,387 Stage-1 map = 26%,  reduce = 0%, Cumulative CPU 11123.22 sec
+2016-12-20 05:01:54,430 Stage-1 map = 31%,  reduce = 0%, Cumulative CPU 11372.67 sec
+2016-12-20 05:01:55,514 Stage-1 map = 34%,  reduce = 0%, Cumulative CPU 11573.16 sec
+2016-12-20 05:01:56,570 Stage-1 map = 36%,  reduce = 0%, Cumulative CPU 11825.23 sec
+2016-12-20 05:01:57,618 Stage-1 map = 37%,  reduce = 0%, Cumulative CPU 12030.6 sec
+2016-12-20 05:01:58,654 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 12230.91 sec
+2016-12-20 05:01:59,681 Stage-1 map = 43%,  reduce = 0%, Cumulative CPU 12443.32 sec
+2016-12-20 05:02:00,737 Stage-1 map = 45%,  reduce = 0%, Cumulative CPU 12624.15 sec
+2016-12-20 05:02:01,788 Stage-1 map = 47%,  reduce = 1%, Cumulative CPU 12823.05 sec
+2016-12-20 05:02:02,843 Stage-1 map = 48%,  reduce = 1%, Cumulative CPU 13034.95 sec
+2016-12-20 05:02:03,895 Stage-1 map = 48%,  reduce = 2%, Cumulative CPU 13230.03 sec
+2016-12-20 05:02:04,942 Stage-1 map = 49%,  reduce = 3%, Cumulative CPU 13423.78 sec
+2016-12-20 05:02:06,016 Stage-1 map = 50%,  reduce = 4%, Cumulative CPU 13642.87 sec
+2016-12-20 05:02:07,099 Stage-1 map = 51%,  reduce = 5%, Cumulative CPU 13849.64 sec
+2016-12-20 05:02:08,136 Stage-1 map = 52%,  reduce = 6%, Cumulative CPU 14042.21 sec
+2016-12-20 05:02:09,213 Stage-1 map = 52%,  reduce = 7%, Cumulative CPU 14268.06 sec
+2016-12-20 05:02:10,319 Stage-1 map = 52%,  reduce = 8%, Cumulative CPU 14430.66 sec
+2016-12-20 05:02:11,364 Stage-1 map = 52%,  reduce = 9%, Cumulative CPU 14648.17 sec
+2016-12-20 05:02:12,410 Stage-1 map = 53%,  reduce = 9%, Cumulative CPU 14826.55 sec
+2016-12-20 05:02:13,463 Stage-1 map = 53%,  reduce = 10%, Cumulative CPU 14996.12 sec
+2016-12-20 05:02:14,506 Stage-1 map = 54%,  reduce = 11%, Cumulative CPU 15212.44 sec
+2016-12-20 05:02:15,535 Stage-1 map = 55%,  reduce = 11%, Cumulative CPU 15383.74 sec
+2016-12-20 05:02:16,578 Stage-1 map = 55%,  reduce = 12%, Cumulative CPU 15532.44 sec
+2016-12-20 05:02:17,631 Stage-1 map = 57%,  reduce = 12%, Cumulative CPU 15748.14 sec
+2016-12-20 05:02:18,677 Stage-1 map = 58%,  reduce = 13%, Cumulative CPU 15908.36 sec
+2016-12-20 05:02:19,717 Stage-1 map = 59%,  reduce = 14%, Cumulative CPU 16052.72 sec
+2016-12-20 05:02:20,766 Stage-1 map = 60%,  reduce = 15%, Cumulative CPU 16251.48 sec
+2016-12-20 05:02:21,818 Stage-1 map = 62%,  reduce = 16%, Cumulative CPU 16401.0 sec
+2016-12-20 05:02:22,854 Stage-1 map = 64%,  reduce = 16%, Cumulative CPU 16540.04 sec
+2016-12-20 05:02:23,892 Stage-1 map = 66%,  reduce = 17%, Cumulative CPU 16701.76 sec
+2016-12-20 05:02:24,926 Stage-1 map = 66%,  reduce = 18%, Cumulative CPU 16834.78 sec
+2016-12-20 05:02:25,968 Stage-1 map = 68%,  reduce = 19%, Cumulative CPU 16960.3 sec
+2016-12-20 05:02:27,002 Stage-1 map = 69%,  reduce = 20%, Cumulative CPU 17082.83 sec
+2016-12-20 05:02:29,075 Stage-1 map = 70%,  reduce = 21%, Cumulative CPU 17311.42 sec
+2016-12-20 05:02:30,117 Stage-1 map = 71%,  reduce = 21%, Cumulative CPU 17424.83 sec
+2016-12-20 05:02:31,157 Stage-1 map = 71%,  reduce = 22%, Cumulative CPU 17534.12 sec
+2016-12-20 05:02:32,191 Stage-1 map = 72%,  reduce = 22%, Cumulative CPU 17648.63 sec
+2016-12-20 05:02:33,245 Stage-1 map = 73%,  reduce = 22%, Cumulative CPU 17744.41 sec
+2016-12-20 05:02:34,293 Stage-1 map = 74%,  reduce = 23%, Cumulative CPU 17864.93 sec
+2016-12-20 05:02:38,479 Stage-1 map = 75%,  reduce = 23%, Cumulative CPU 18290.71 sec
+2016-12-20 05:02:39,519 Stage-1 map = 75%,  reduce = 24%, Cumulative CPU 18363.58 sec
+2016-12-20 05:02:40,561 Stage-1 map = 76%,  reduce = 24%, Cumulative CPU 18479.1 sec
+2016-12-20 05:02:41,589 Stage-1 map = 77%,  reduce = 24%, Cumulative CPU 18584.28 sec
+2016-12-20 05:02:43,675 Stage-1 map = 79%,  reduce = 24%, Cumulative CPU 18760.02 sec
+2016-12-20 05:02:44,730 Stage-1 map = 79%,  reduce = 25%, Cumulative CPU 18854.92 sec
+2016-12-20 05:02:45,788 Stage-1 map = 80%,  reduce = 25%, Cumulative CPU 18933.26 sec
+2016-12-20 05:02:46,858 Stage-1 map = 81%,  reduce = 25%, Cumulative CPU 19018.7 sec
+2016-12-20 05:02:47,893 Stage-1 map = 84%,  reduce = 25%, Cumulative CPU 19112.82 sec
+2016-12-20 05:02:48,931 Stage-1 map = 85%,  reduce = 26%, Cumulative CPU 19193.73 sec
+2016-12-20 05:02:49,972 Stage-1 map = 86%,  reduce = 26%, Cumulative CPU 19293.08 sec
+2016-12-20 05:02:51,026 Stage-1 map = 88%,  reduce = 27%, Cumulative CPU 19406.47 sec
+2016-12-20 05:02:52,098 Stage-1 map = 89%,  reduce = 27%, Cumulative CPU 19501.55 sec
+2016-12-20 05:02:53,152 Stage-1 map = 91%,  reduce = 28%, Cumulative CPU 19584.98 sec
+2016-12-20 05:02:54,199 Stage-1 map = 93%,  reduce = 28%, Cumulative CPU 19646.63 sec
+2016-12-20 05:02:55,241 Stage-1 map = 93%,  reduce = 29%, Cumulative CPU 19705.27 sec
+2016-12-20 05:02:57,342 Stage-1 map = 93%,  reduce = 30%, Cumulative CPU 19788.19 sec
+2016-12-20 05:02:59,418 Stage-1 map = 94%,  reduce = 30%, Cumulative CPU 19873.71 sec
+2016-12-20 05:03:00,461 Stage-1 map = 95%,  reduce = 30%, Cumulative CPU 19922.31 sec
+2016-12-20 05:03:06,670 Stage-1 map = 96%,  reduce = 31%, Cumulative CPU 20119.54 sec
+2016-12-20 05:03:08,729 Stage-1 map = 97%,  reduce = 31%, Cumulative CPU 20177.77 sec
+2016-12-20 05:03:09,762 Stage-1 map = 97%,  reduce = 32%, Cumulative CPU 20208.08 sec
+2016-12-20 05:03:36,585 Stage-1 map = 98%,  reduce = 32%, Cumulative CPU 20795.23 sec
+2016-12-20 05:04:04,406 Stage-1 map = 99%,  reduce = 32%, Cumulative CPU 21597.01 sec
+2016-12-20 05:04:06,467 Stage-1 map = 99%,  reduce = 33%, Cumulative CPU 21642.47 sec
+2016-12-20 05:04:22,135 Stage-1 map = 100%,  reduce = 37%, Cumulative CPU 21867.15 sec
+2016-12-20 05:04:23,167 Stage-1 map = 100%,  reduce = 52%, Cumulative CPU 22250.91 sec
+2016-12-20 05:04:24,202 Stage-1 map = 100%,  reduce = 83%, Cumulative CPU 23620.73 sec
+2016-12-20 05:04:25,245 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 24281.69 sec
+2016-12-20 05:04:26,283 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 24466.36 sec
+2016-12-20 05:04:27,324 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 24572.4 sec
+2016-12-20 05:04:31,697 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 24617.87 sec
+MapReduce Total cumulative CPU time: 0 days 6 hours 50 minutes 17 seconds 870 msec
+Ended Job = job_1478649307064_892908
+Launching Job 2 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 4
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/12/20 05:04:32 ERROR mr.ExecDriver: yarn
+16/12/20 05:04:32 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+Starting Job = job_1478649307064_893066, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_893066/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1478649307064_893066
+Hadoop job information for Stage-2: number of mappers: 176; number of reducers: 4
+16/12/20 05:04:50 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-12-20 05:04:50,526 Stage-2 map = 0%,  reduce = 0%
+2016-12-20 05:05:05,308 Stage-2 map = 2%,  reduce = 0%, Cumulative CPU 23.8 sec
+2016-12-20 05:05:06,347 Stage-2 map = 12%,  reduce = 0%, Cumulative CPU 119.55 sec
+2016-12-20 05:05:07,392 Stage-2 map = 29%,  reduce = 0%, Cumulative CPU 304.58 sec
+2016-12-20 05:05:08,433 Stage-2 map = 47%,  reduce = 0%, Cumulative CPU 504.51 sec
+2016-12-20 05:05:09,487 Stage-2 map = 55%,  reduce = 0%, Cumulative CPU 591.63 sec
+2016-12-20 05:05:10,547 Stage-2 map = 60%,  reduce = 0%, Cumulative CPU 668.03 sec
+2016-12-20 05:05:11,577 Stage-2 map = 65%,  reduce = 0%, Cumulative CPU 721.34 sec
+2016-12-20 05:05:12,620 Stage-2 map = 69%,  reduce = 0%, Cumulative CPU 786.16 sec
+2016-12-20 05:05:13,651 Stage-2 map = 77%,  reduce = 0%, Cumulative CPU 881.42 sec
+2016-12-20 05:05:14,681 Stage-2 map = 81%,  reduce = 0%, Cumulative CPU 924.62 sec
+2016-12-20 05:05:15,707 Stage-2 map = 86%,  reduce = 0%, Cumulative CPU 996.5 sec
+2016-12-20 05:05:16,739 Stage-2 map = 89%,  reduce = 0%, Cumulative CPU 1036.69 sec
+2016-12-20 05:05:17,856 Stage-2 map = 92%,  reduce = 0%, Cumulative CPU 1070.45 sec
+2016-12-20 05:05:18,886 Stage-2 map = 95%,  reduce = 7%, Cumulative CPU 1133.77 sec
+2016-12-20 05:05:19,912 Stage-2 map = 98%,  reduce = 15%, Cumulative CPU 1182.66 sec
+2016-12-20 05:05:20,941 Stage-2 map = 98%,  reduce = 24%, Cumulative CPU 1195.86 sec
+2016-12-20 05:05:23,336 Stage-2 map = 99%,  reduce = 24%, Cumulative CPU 1207.17 sec
+2016-12-20 05:05:24,419 Stage-2 map = 100%,  reduce = 25%, Cumulative CPU 1220.37 sec
+2016-12-20 05:05:25,622 Stage-2 map = 100%,  reduce = 35%, Cumulative CPU 1232.14 sec
+2016-12-20 05:05:26,648 Stage-2 map = 100%,  reduce = 42%, Cumulative CPU 1235.77 sec
+2016-12-20 05:05:28,795 Stage-2 map = 100%,  reduce = 58%, Cumulative CPU 1240.61 sec
+2016-12-20 05:05:29,821 Stage-2 map = 100%,  reduce = 59%, Cumulative CPU 1252.64 sec
+2016-12-20 05:05:31,870 Stage-2 map = 100%,  reduce = 68%, Cumulative CPU 1289.42 sec
+2016-12-20 05:05:32,897 Stage-2 map = 100%,  reduce = 70%, Cumulative CPU 1292.96 sec
+2016-12-20 05:05:34,946 Stage-2 map = 100%,  reduce = 73%, Cumulative CPU 1311.08 sec
+2016-12-20 05:05:35,973 Stage-2 map = 100%,  reduce = 74%, Cumulative CPU 1314.36 sec
+2016-12-20 05:05:38,026 Stage-2 map = 100%,  reduce = 77%, Cumulative CPU 1324.85 sec
+2016-12-20 05:05:39,051 Stage-2 map = 100%,  reduce = 78%, Cumulative CPU 1330.24 sec
+2016-12-20 05:05:41,108 Stage-2 map = 100%,  reduce = 82%, Cumulative CPU 1343.25 sec
+2016-12-20 05:05:42,131 Stage-2 map = 100%,  reduce = 83%, Cumulative CPU 1346.7 sec
+2016-12-20 05:05:44,180 Stage-2 map = 100%,  reduce = 87%, Cumulative CPU 1360.82 sec
+2016-12-20 05:05:45,206 Stage-2 map = 100%,  reduce = 88%, Cumulative CPU 1364.2 sec
+2016-12-20 05:05:46,234 Stage-2 map = 100%,  reduce = 89%, Cumulative CPU 1367.77 sec
+2016-12-20 05:05:47,265 Stage-2 map = 100%,  reduce = 91%, Cumulative CPU 1374.27 sec
+2016-12-20 05:05:48,302 Stage-2 map = 100%,  reduce = 92%, Cumulative CPU 1377.5 sec
+2016-12-20 05:05:49,331 Stage-2 map = 100%,  reduce = 94%, Cumulative CPU 1381.44 sec
+2016-12-20 05:05:50,359 Stage-2 map = 100%,  reduce = 96%, Cumulative CPU 1394.52 sec
+2016-12-20 05:05:51,384 Stage-2 map = 100%,  reduce = 97%, Cumulative CPU 1398.94 sec
+2016-12-20 05:05:52,411 Stage-2 map = 100%,  reduce = 98%, Cumulative CPU 1401.29 sec
+2016-12-20 05:05:54,478 Stage-2 map = 100%,  reduce = 99%, Cumulative CPU 1404.84 sec
+2016-12-20 05:06:00,783 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 1414.62 sec
+MapReduce Total cumulative CPU time: 23 minutes 34 seconds 620 msec
+Ended Job = job_1478649307064_893066
+Loading data to table hdp_oc_team.do_shopperfailedbilling
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/do_shopperfailedbilling/000000_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/do_shopperfailedbilling/000001_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/do_shopperfailedbilling/000002_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/do_shopperfailedbilling/000003_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Table hdp_oc_team.do_shopperfailedbilling stats: [numFiles=4, numRows=8672742, totalSize=1107289820, rawDataSize=1098617078]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 242  Reduce: 334   Cumulative CPU: 24617.87 sec   HDFS Read: 14637082394 HDFS Write: 925574640 SUCCESS
+Stage-Stage-2: Map: 176  Reduce: 4   Cumulative CPU: 1414.62 sec   HDFS Read: 926454840 HDFS Write: 1107290232 SUCCESS
+Total MapReduce CPU Time Spent: 0 days 7 hours 13 minutes 52 seconds 490 msec
+OK
+Time taken: 321.014 seconds
+16/12/20 05:06:04 INFO tool.ConnectorExportTool: ConnectorExportTool starts at 1482235564938
+16/12/20 05:06:05 INFO common.ConnectorPlugin: load plugins in file:/tmp/hadoop-unjar8311118818325833405/teradata.connector.plugins.xml
+16/12/20 05:06:05 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482235565899
+16/12/20 05:06:06 INFO utils.TeradataUtils: the output database product is Teradata
+16/12/20 05:06:06 INFO utils.TeradataUtils: the output database version is 15.0
+16/12/20 05:06:06 INFO utils.TeradataUtils: the jdbc driver version is 15.0
+16/12/20 05:06:06 INFO processor.TeradataOutputProcessor: the teradata connector for hadoop version is: 1.4.2
+16/12/20 05:06:06 INFO processor.TeradataOutputProcessor: output jdbc properties are jdbc:teradata://godaddy3.prod.phx3.gdg/DATABASE=P_HadoopImp_S
+16/12/20 05:06:07 INFO processor.TeradataBatchInsertProcessor: create output stage table ShopFailBlg_STG_050607452the sql is CREATE MULTISET TABLE "ShopFailBlg_STG_050607452", DATABLOCKSIZE = 130048 BYTES, NO FALLBACK, NO BEFORE JOURNAL, NO AFTER JOURNAL, CHECKSUM = DEFAULT ("gdsBillResrcHistId" INTEGER NULL, "shopper_id" VARCHAR(10) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "date_entered" TIMESTAMP(3) WITH TIME ZONE  FORMAT 'YYYY-MM-DDBHH:MI:SS.S(3)Z' NULL, "order_id" VARCHAR(20) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "row_id" INTEGER NULL, "resource_id" INTEGER NULL, "gdshop_billing_attemptid" INTEGER NULL, "adjusted_price" INTEGER NULL, "gdshop_product_typeid" INTEGER NULL, "cpl_id" INTEGER NULL, "billing_attempt" INTEGER NULL, "response_code" INTEGER NULL, "reason_code" INTEGER NULL, "source" VARCHAR(20) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "billing_country_code" VARCHAR(20) CHARACTER SET LATIN NOT CASESPECIFIC NULL, "total" INTEGER NULL, "attempts" INTEGER NULL, "TDCH_BI_TASKID" VARCHAR(40) NOT CASESPECIFIC NULL) NO PRIMARY INDEX  
+16/12/20 05:06:07 INFO processor.TeradataOutputProcessor: the number of mappers are 144
+16/12/20 05:06:07 INFO processor.TeradataOutputProcessor: output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482235567587
+16/12/20 05:06:07 INFO processor.TeradataOutputProcessor: the total elapsed time of output preprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 1s
+16/12/20 05:06:08 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 20993575 for hdp_oc_team on ha-hdfs:production
+16/12/20 05:06:08 INFO security.TokenCache: Got dt for hdfs://production; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20993575 for hdp_oc_team)
+16/12/20 05:06:09 INFO input.FileInputFormat: Total input paths to process : 4
+16/12/20 05:06:09 INFO input.FileInputFormat: Total input paths to process : 4
+16/12/20 05:06:09 INFO input.CombineFileInputFormat: DEBUG: Terminated node allocation with : CompletedNodes: 25, size left: 0
+16/12/20 05:06:09 INFO mapreduce.JobSubmitter: number of splits:140
+16/12/20 05:06:09 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1478649307064_893114
+16/12/20 05:06:09 INFO mapreduce.JobSubmitter: Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 20993575 for hdp_oc_team)
+16/12/20 05:06:09 INFO impl.YarnClientImpl: Submitted application application_1478649307064_893114
+16/12/20 05:06:09 INFO mapreduce.Job: The url to track the job: http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1478649307064_893114/
+16/12/20 05:06:09 INFO mapreduce.Job: Running job: job_1478649307064_893114
+16/12/20 05:06:19 INFO mapreduce.Job: Job job_1478649307064_893114 running in uber mode : false
+16/12/20 05:06:19 INFO mapreduce.Job:  map 0% reduce 0%
+16/12/20 05:06:31 INFO mapreduce.Job:  map 1% reduce 0%
+16/12/20 05:06:32 INFO mapreduce.Job:  map 7% reduce 0%
+16/12/20 05:06:33 INFO mapreduce.Job:  map 14% reduce 0%
+16/12/20 05:06:34 INFO mapreduce.Job:  map 19% reduce 0%
+16/12/20 05:06:35 INFO mapreduce.Job:  map 26% reduce 0%
+16/12/20 05:06:36 INFO mapreduce.Job:  map 51% reduce 0%
+16/12/20 05:06:37 INFO mapreduce.Job:  map 67% reduce 0%
+16/12/20 05:06:38 INFO mapreduce.Job:  map 78% reduce 0%
+16/12/20 05:06:39 INFO mapreduce.Job:  map 86% reduce 0%
+16/12/20 05:06:40 INFO mapreduce.Job:  map 90% reduce 0%
+16/12/20 05:06:41 INFO mapreduce.Job:  map 92% reduce 0%
+16/12/20 05:06:42 INFO mapreduce.Job:  map 95% reduce 0%
+16/12/20 05:06:44 INFO mapreduce.Job:  map 96% reduce 0%
+16/12/20 05:06:45 INFO mapreduce.Job:  map 98% reduce 0%
+16/12/20 05:06:47 INFO mapreduce.Job:  map 99% reduce 0%
+16/12/20 05:06:49 INFO mapreduce.Job:  map 100% reduce 0%
+16/12/20 05:06:49 INFO mapreduce.Job: Job job_1478649307064_893114 completed successfully
+16/12/20 05:06:49 INFO mapreduce.Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=19977330
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1115586276
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=292
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=140
+		Other local map tasks=42
+		Data-local map tasks=12
+		Rack-local map tasks=86
+		Total time spent by all maps in occupied slots (ms)=3632282
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=1816141
+		Total vcore-milliseconds taken by all map tasks=1816141
+		Total megabyte-milliseconds taken by all map tasks=7438913536
+	Map-Reduce Framework
+		Map input records=8672742
+		Map output records=8672742
+		Input split bytes=25548
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=63055
+		CPU time spent (ms)=1682680
+		Physical memory (bytes) snapshot=58200489984
+		Virtual memory (bytes) snapshot=589172322304
+		Total committed heap usage (bytes)=56774623232
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+16/12/20 05:06:49 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor starts at:  1482235609519
+16/12/20 05:06:49 INFO processor.TeradataBatchInsertProcessor: insert from staget table to target table 
+16/12/20 05:06:49 INFO processor.TeradataBatchInsertProcessor: the insert select sql starts at: 1482235609638
+16/12/20 05:06:50 INFO processor.TeradataBatchInsertProcessor: the insert select sql ends at: 1482235610695
+16/12/20 05:06:50 INFO processor.TeradataBatchInsertProcessor: the total elapsed time of the insert select sql  is: 1s
+16/12/20 05:06:50 INFO processor.TeradataBatchInsertProcessor: drop stage table "ShopFailBlg_STG_050607452"
+16/12/20 05:06:51 INFO processor.TeradataOutputProcessor: output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor ends at:  1482235609519
+16/12/20 05:06:51 INFO processor.TeradataOutputProcessor: the total elapsed time of output postprocessor com.teradata.connector.teradata.processor.TeradataBatchInsertProcessor is: 1s
+16/12/20 05:06:51 INFO tool.ConnectorExportTool: ConnectorExportTool ends at 1482235611017
+16/12/20 05:06:51 INFO tool.ConnectorExportTool: ConnectorExportTool time is 46s
+16/12/20 05:06:51 INFO tool.ConnectorExportTool: job completed with exit code 0
+BTEQ 15.00.00.02 Tue Dec 20 05:06:51 2016 PID: 12313
+ 
++---------+---------+---------+---------+---------+---------+---------+----
+/************************************************************************ 
+**
+**        NAME:  vsShopFailBlg-Daily.btq
+**
+**      INPUTS:  P_HadoopImp.vsShopFailBlg_STG
+**
+**     OUTPUTS:  P_HadoopImp.vtShopFailBlg
+**               P_HadoopImp.ShopFailBlg
+**
+**    PROCESS OVERVIEW:
+**       1. Inset new recods
+**       2. Recods will never change, so no updates
+**       3. Delete older records that are out of range
+**
+**
+**     HISTORY:  AUTHOR    	        DATE                DESCRIPTION
+**               MPENNY	      	2015-05-07             Original script
+**               DORITIJR       2016-05-03             Remove Reconciled Billing
+************************************************************************/
+
+.SET ECHOREQ ON
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ERROROUT STDOUT
+ *** Error messages now directed to STDOUT.
++---------+---------+---------+---------+---------+---------+---------+----
+.SET WIDTH 256
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+.LOGON godaddy3.prod.phx3.gdg/doritijr,
+
+ *** Logon successfully completed.
+ *** Teradata Database Release is 15.00.02.03                   
+ *** Teradata Database Version is 15.00.02.05                     
+ *** Transaction Semantics are BTET.
+ *** Session Character Set Name is 'ASCII'.
+ 
+ *** Total elapsed time was 1 second.
+ 
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+-- 001 - Check for data in staging
+------------------------------------------------------------------------
+SELECT TOP 1 * FROM P_HadoopImp.vsShopFailBlg_STG;
+
+ *** Query completed. One row found. 17 columns returned. 
+ *** Total elapsed time was 1 second.
+
+gdsBillResrcHistId shopper_id                  date_entered order_id                  row_id resource_id gdshop_billing_attemptid adjusted_price gdshop_product_typeid      cpl_id billing_attempt response_code reason_code source               billing_countr
+------------------ ---------- ----------------------------- -------------------- ----------- ----------- ------------------------ -------------- --------------------- ----------- --------------- ------------- ----------- -------------------- --------------
+         740831211 3415919    2016-12-16 09:28:50.000-07:00 1065857831                     0    73668448                        1           2017                     3   986441936               1             1           1 P3PWGDCOMM001::Billi hk
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ACTIVITYCOUNT = 0 THEN .GOTO E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+------------------------------------------------------------------------
+--  002 - Reset NULLs in LEFT JOIN key column to zeros
+--        We are going use them in the LEFT JOIN below
+------------------------------------------------------------------------
+
+UPDATE P_HadoopImp.vsShopFailBlg_STG SET cpl_id = 0
+WHERE billing_attempt IS NULL;
+
+ *** Update completed. 84 rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+------------------------------------------------------------------------
+--  003 - Insert new records
+------------------------------------------------------------------------
+
+INSERT P_HadoopImp_T.ShopFailBlg
+(  
+     gdsBillResrcHistId
+    ,shopper_id
+    ,date_entered
+    ,order_id
+    ,row_id
+    ,resource_id 
+    ,gdshop_billing_attemptid
+    ,adjusted_price
+    ,gdshop_product_typeid
+    ,cpl_id
+    ,billing_attempt
+    ,response_code
+    ,reason_code
+    ,source
+    ,billing_country_code   
+    ,total
+    ,attempts
+    ,DelInd
+    ,EtlInsLdId
+    ,EtlUpdLdId
+ )
+SELECT DISTINCT
+      STG.gdsBillResrcHistId
+        ,STG.shopper_id
+        ,STG.date_entered
+        ,STG.order_id
+        ,STG.row_id
+        ,STG.resource_id         
+        ,STG.gdshop_billing_attemptid
+        ,STG.adjusted_price
+        ,STG.gdshop_product_typeid
+        ,STG.cpl_id
+        ,STG.billing_attempt
+        ,STG.response_code
+        ,STG.reason_code        
+        ,STG.source
+        ,STG.billing_country_code   
+        ,STG.total
+        ,STG.attempts     
+        ,CAST('A' AS CHAR(1)) AS DelInd
+        ,CAST(0 AS INTEGER) AS EtlInsLdId
+        ,CAST(0 AS INTEGER) AS EtlUpdLdId
+FROM    P_HadoopImp.vsShopFailBlg_STG AS STG
+LEFT JOIN  P_HadoopImp.vtShopFailBlg AS TRG
+ON      STG.gdsBillResrcHistId = TRG.gdsBillResrcHistId
+  AND STG.cpl_id = TRG.cpl_id
+WHERE   TRG.gdsBillResrcHistId IS NULL;
+
+ *** Insert completed. 2324072 rows added. 
+ *** Total elapsed time was 4 minutes and 40 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+------------------------------------------------------------------------
+--  004 - Remove old recods that are out of range
+------------------------------------------------------------------------
+
+DELETE FROM 
+P_HadoopImp_T.ShopFailBlg
+WHERE date_entered < DATE-30;
+
+ *** Delete completed. 246404 rows removed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+------------------------------------------------------------------------
+--  005 - Remove removed records
+------------------------------------------------------------------------
+
+DELETE FROM P_HadoopImp.vtShopFailBlg
+WHERE NOT EXISTS (
+SELECT  STG.gdsBillResrcHistId  
+FROM    P_HadoopImp.vsShopFailBlg_STG AS STG
+JOIN    P_HadoopImp.vtShopFailBlg AS TRG
+ON      STG.gdsBillResrcHistId = TRG.gdsBillResrcHistId
+);
+
+ *** Delete completed. No rows removed. 
+ *** Total elapsed time was 13 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+--  005a - Remove reconciled billing
+------------------------------------------------------------------------
+
+CREATE MULTISET VOLATILE TABLE GOODORDS AS(
+SELECT ORDER_ID, SHOPPER_ID
+FROM BIGREPORTING.RPTORDERDETAIL
+WHERE CAST(ORDER_DATE AS DATE) >= CURRENT_DATE - 45
+GROUP BY 1, 2)
+WITH DATA
+PRIMARY INDEX(ORDER_ID)
+ON COMMIT PRESERVE ROWS;
+
+ *** Table has been created. 
+ *** Total elapsed time was 4 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS GOODORDS COLUMN(ORDER_ID);
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+CREATE MULTISET VOLATILE TABLE GOODORDSRSRS AS(
+SELECT A.SHOPPER_ID, A.RESOURCE_ID, A.ORDER_DATE, A.GDS_PRODUCT_TYPEID, B.NAMESPACE
+FROM
+(SELECT B.SHOPPER_ID, A.RESOURCE_ID, A.GDS_PRODUCT_TYPEID, A.ORDER_DATE, RANK() OVER(PARTITION BY B.SHOPPER_ID, A.RESOURCE_ID ORDER BY A.ORDER_DATE DESC) AS ORDDTRNK
+FROM BILLING.GDS_RES_MTM_ORDER A,
+GOODORDS B
+WHERE A.ORDER_ID = B.ORDER_ID
+AND CAST(A.ORDER_DATE AS DATE) >= CURRENT_DATE - 45
+GROUP BY 1,2,3,4) A,
+GODADDY.GDS_PRODUCT_TYPE B
+WHERE ORDDTRNK = 1
+AND A.GDS_PRODUCT_TYPEID = B.GDS_PRODUCT_TYPEID
+GROUP BY 1,2,3,4,5)
+WITH DATA
+PRIMARY INDEX(SHOPPER_ID, RESOURCE_ID, ORDER_DATE)
+ON COMMIT PRESERVE ROWS;
+
+ *** Table has been created. 
+ *** Total elapsed time was 10 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS GOODORDSRSRS COLUMN(SHOPPER_ID, RESOURCE_ID, ORDER_DATE);
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+CREATE MULTISET VOLATILE TABLE DELORDS AS(
+SELECT G.SHOPPER_ID, CASE WHEN G.NAMESPACE = 'DOMAIN' AND D.BILLINGRESOURCEID IS NOT NULL THEN D.ID ELSE G.RESOURCE_ID END AS RESOURCE_ID, G.ORDER_DATE, G.GDS_PRODUCT_TYPEID, G.NAMESPACE
+FROM
+GOODORDSRSRS G
+LEFT JOIN
+DOMAINS.DOMAININFO D ON G.RESOURCE_ID = D.BILLINGRESOURCEID)
+WITH DATA
+PRIMARY INDEX(SHOPPER_ID, RESOURCE_ID, ORDER_DATE)
+ON COMMIT PRESERVE ROWS;
+
+ *** Table has been created. 
+ *** Total elapsed time was 8 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS DELORDS COLUMN(SHOPPER_ID, RESOURCE_ID, ORDER_DATE);
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (SHOPPER_ID) ON P_HADOOPIMP_T.SHOPFAILBLG;
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 2 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (SHOPPER_ID ,RESOURCE_ID) ON P_HADOOPIMP_T.SHOPFAILBLG;
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (DATE_ENTERED) ON P_HADOOPIMP_T.SHOPFAILBLG;
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 2 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (SHOPPER_ID ,RESOURCE_ID) ON DELORDS;
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (ORDER_DATE) ON DELORDS;
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATISTICS COLUMN (SHOPPER_ID ,DATE_ENTERED,RESOURCE_ID) ON P_HADOOPIMP_T.SHOPFAILBLG;
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+CREATE MULTISET VOLATILE TABLE DELRECS AS(
+SELECT A.GDSBILLRESRCHISTID, A.SHOPPER_ID, A.RESOURCE_ID
+FROM P_HADOOPIMP_T.SHOPFAILBLG A,
+DELORDS B
+WHERE A.SHOPPER_ID = B.SHOPPER_ID
+AND A.RESOURCE_ID = B.RESOURCE_ID
+AND A.DATE_ENTERED < B.ORDER_DATE
+GROUP BY 1,2,3)
+WITH DATA
+PRIMARY INDEX(GDSBILLRESRCHISTID)
+ON COMMIT PRESERVE ROWS;
+
+ *** Table has been created. 
+ *** Total elapsed time was 2 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+COLLECT STATS DELRECS COLUMN(GDSBILLRESRCHISTID);
+
+ *** Update completed. No rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+COLLECT STATS P_HADOOPIMP_T.SHOPFAILBLG COLUMN(GDSBILLRESRCHISTID);
+
+ *** Update completed. 2 rows changed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE A
+FROM P_HADOOPIMP_T.SHOPFAILBLG A,
+DELRECS B
+WHERE A.GDSBILLRESRCHISTID = B.GDSBILLRESRCHISTID;
+
+ *** Delete completed. 2135656 rows removed. 
+ *** Total elapsed time was one minute and 21 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+------------------------------------------------------------------------
+--  006 - Flush staging table for next time
+------------------------------------------------------------------------
+
+DELETE P_HadoopImp.vsShopFailBlg_STG;
+
+ *** Delete completed. 8672742 rows removed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+------------------------------------------------------------------------
+--  086 - Good exit
+------------------------------------------------------------------------
+
+.LABEL E086
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.LOGOFF
+ *** You are now logged off from the DBC.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.QUIT
+ *** Exiting BTEQ...
+ *** RC (return code) = 0 

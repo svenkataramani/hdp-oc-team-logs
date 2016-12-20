@@ -1,0 +1,817 @@
+processing parameters used:
+2016-10-12
+
+Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
+OK
+Time taken: 1.907 seconds
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.shopperid was overwritten in RowResolver map: _col0: string by _col0: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for cm.customermap_id was overwritten in RowResolver map: _col1: int by _col1: int
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.email_id was overwritten in RowResolver map: _col2: bigint by _col2: bigint
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.sentdate was overwritten in RowResolver map: _col3: string by _col3: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.sentdatetime was overwritten in RowResolver map: _col4: string by _col4: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.privatelabel_id was overwritten in RowResolver map: _col5: int by _col5: int
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.isccode was overwritten in RowResolver map: _col6: string by _col6: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.emailsource_id was overwritten in RowResolver map: _col7: tinyint by _col7: tinyint
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.emailsourcekey was overwritten in RowResolver map: _col8: bigint by _col8: bigint
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.template_id was overwritten in RowResolver map: _col9: int by _col9: int
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.message_id was overwritten in RowResolver map: _col10: string by _col10: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.batch_id was overwritten in RowResolver map: _col11: int by _col11: int
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.errorcode_id was overwritten in RowResolver map: _col12: tinyint by _col12: tinyint
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.emailformat was overwritten in RowResolver map: _col13: tinyint by _col13: tinyint
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.lang was overwritten in RowResolver map: _col14: string by _col14: string
+16/10/12 09:00:22 WARN parse.RowResolver: Duplicate column info for null.auditcreatedatetime was overwritten in RowResolver map: _col15: timestamp by _col15: timestamp
+Query ID = hdp_oc_team_20161012090000_179adccd-0927-401c-b382-5e4bd432ce43
+Total jobs = 2
+Stage-1 is selected by condition resolver.
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 23
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/10/12 09:00:29 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+16/10/12 09:00:33 WARN mapred.YARNRunner: Usage of -Djava.library.path in yarn.app.mapreduce.am.command-opts can cause programs to no longer function if hadoop native libraries are used. These values should be set as part of the LD_LIBRARY_PATH in the app master JVM env using yarn.app.mapreduce.am.env config settings.
+Starting Job = job_1472768177330_933787, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1472768177330_933787/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1472768177330_933787
+Hadoop job information for Stage-1: number of mappers: 83; number of reducers: 23
+16/10/12 09:00:42 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-10-12 09:00:42,185 Stage-1 map = 0%,  reduce = 0%
+2016-10-12 09:00:52,225 Stage-1 map = 5%,  reduce = 0%, Cumulative CPU 20.22 sec
+2016-10-12 09:00:53,290 Stage-1 map = 25%,  reduce = 0%, Cumulative CPU 102.76 sec
+2016-10-12 09:00:54,399 Stage-1 map = 41%,  reduce = 0%, Cumulative CPU 181.64 sec
+2016-10-12 09:00:55,511 Stage-1 map = 53%,  reduce = 0%, Cumulative CPU 269.47 sec
+2016-10-12 09:00:56,614 Stage-1 map = 59%,  reduce = 0%, Cumulative CPU 435.76 sec
+2016-10-12 09:00:57,881 Stage-1 map = 64%,  reduce = 0%, Cumulative CPU 480.44 sec
+2016-10-12 09:00:58,954 Stage-1 map = 67%,  reduce = 0%, Cumulative CPU 564.29 sec
+2016-10-12 09:01:00,032 Stage-1 map = 70%,  reduce = 0%, Cumulative CPU 623.09 sec
+2016-10-12 09:01:01,117 Stage-1 map = 71%,  reduce = 0%, Cumulative CPU 650.06 sec
+2016-10-12 09:01:02,189 Stage-1 map = 72%,  reduce = 0%, Cumulative CPU 724.1 sec
+2016-10-12 09:01:03,259 Stage-1 map = 72%,  reduce = 5%, Cumulative CPU 746.69 sec
+2016-10-12 09:01:04,322 Stage-1 map = 72%,  reduce = 10%, Cumulative CPU 767.68 sec
+2016-10-12 09:01:05,395 Stage-1 map = 72%,  reduce = 16%, Cumulative CPU 848.7 sec
+2016-10-12 09:01:06,442 Stage-1 map = 72%,  reduce = 18%, Cumulative CPU 882.66 sec
+2016-10-12 09:01:07,546 Stage-1 map = 72%,  reduce = 23%, Cumulative CPU 917.05 sec
+2016-10-12 09:01:08,601 Stage-1 map = 72%,  reduce = 24%, Cumulative CPU 989.8 sec
+2016-10-12 09:01:12,924 Stage-1 map = 73%,  reduce = 24%, Cumulative CPU 1122.51 sec
+2016-10-12 09:01:13,979 Stage-1 map = 75%,  reduce = 24%, Cumulative CPU 1150.82 sec
+2016-10-12 09:01:15,088 Stage-1 map = 79%,  reduce = 24%, Cumulative CPU 1263.06 sec
+2016-10-12 09:01:17,374 Stage-1 map = 84%,  reduce = 24%, Cumulative CPU 1327.14 sec
+2016-10-12 09:01:18,434 Stage-1 map = 86%,  reduce = 24%, Cumulative CPU 1374.62 sec
+2016-10-12 09:01:20,585 Stage-1 map = 87%,  reduce = 24%, Cumulative CPU 1430.34 sec
+2016-10-12 09:01:21,792 Stage-1 map = 91%,  reduce = 25%, Cumulative CPU 1470.06 sec
+2016-10-12 09:01:22,850 Stage-1 map = 92%,  reduce = 26%, Cumulative CPU 1479.78 sec
+2016-10-12 09:01:24,004 Stage-1 map = 93%,  reduce = 27%, Cumulative CPU 1515.61 sec
+2016-10-12 09:01:25,049 Stage-1 map = 95%,  reduce = 28%, Cumulative CPU 1534.33 sec
+2016-10-12 09:01:26,562 Stage-1 map = 96%,  reduce = 29%, Cumulative CPU 1566.59 sec
+2016-10-12 09:01:27,652 Stage-1 map = 97%,  reduce = 29%, Cumulative CPU 1580.49 sec
+2016-10-12 09:01:28,712 Stage-1 map = 97%,  reduce = 30%, Cumulative CPU 1583.99 sec
+2016-10-12 09:01:29,759 Stage-1 map = 98%,  reduce = 31%, Cumulative CPU 1607.26 sec
+2016-10-12 09:01:31,954 Stage-1 map = 99%,  reduce = 31%, Cumulative CPU 1625.22 sec
+2016-10-12 09:01:32,998 Stage-1 map = 99%,  reduce = 32%, Cumulative CPU 1637.89 sec
+2016-10-12 09:01:38,234 Stage-1 map = 99%,  reduce = 33%, Cumulative CPU 1659.12 sec
+2016-10-12 09:01:40,348 Stage-1 map = 100%,  reduce = 33%, Cumulative CPU 1669.18 sec
+2016-10-12 09:01:42,475 Stage-1 map = 100%,  reduce = 42%, Cumulative CPU 1694.94 sec
+2016-10-12 09:01:43,536 Stage-1 map = 100%,  reduce = 51%, Cumulative CPU 1715.86 sec
+2016-10-12 09:01:44,582 Stage-1 map = 100%,  reduce = 59%, Cumulative CPU 1737.68 sec
+2016-10-12 09:01:45,642 Stage-1 map = 100%,  reduce = 67%, Cumulative CPU 1793.23 sec
+2016-10-12 09:01:46,815 Stage-1 map = 100%,  reduce = 69%, Cumulative CPU 1832.54 sec
+2016-10-12 09:01:47,876 Stage-1 map = 100%,  reduce = 71%, Cumulative CPU 1863.97 sec
+2016-10-12 09:01:48,943 Stage-1 map = 100%,  reduce = 75%, Cumulative CPU 1895.92 sec
+2016-10-12 09:01:50,001 Stage-1 map = 100%,  reduce = 79%, Cumulative CPU 1939.79 sec
+2016-10-12 09:01:51,064 Stage-1 map = 100%,  reduce = 82%, Cumulative CPU 1971.75 sec
+2016-10-12 09:01:52,139 Stage-1 map = 100%,  reduce = 84%, Cumulative CPU 1994.25 sec
+2016-10-12 09:01:53,181 Stage-1 map = 100%,  reduce = 88%, Cumulative CPU 2033.73 sec
+2016-10-12 09:01:54,233 Stage-1 map = 100%,  reduce = 92%, Cumulative CPU 2067.24 sec
+2016-10-12 09:01:55,289 Stage-1 map = 100%,  reduce = 95%, Cumulative CPU 2108.5 sec
+2016-10-12 09:01:56,345 Stage-1 map = 100%,  reduce = 97%, Cumulative CPU 2137.52 sec
+2016-10-12 09:01:57,406 Stage-1 map = 100%,  reduce = 98%, Cumulative CPU 2154.2 sec
+2016-10-12 09:01:58,456 Stage-1 map = 100%,  reduce = 99%, Cumulative CPU 2171.31 sec
+2016-10-12 09:02:02,796 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 2183.09 sec
+MapReduce Total cumulative CPU time: 36 minutes 23 seconds 90 msec
+Ended Job = job_1472768177330_933787
+Launching Job 2 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+16/10/12 09:02:06 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+16/10/12 09:02:07 WARN mapred.YARNRunner: Usage of -Djava.library.path in yarn.app.mapreduce.am.command-opts can cause programs to no longer function if hadoop native libraries are used. These values should be set as part of the LD_LIBRARY_PATH in the app master JVM env using yarn.app.mapreduce.am.env config settings.
+Starting Job = job_1472768177330_933818, Tracking URL = http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1472768177330_933818/
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -kill job_1472768177330_933818
+Hadoop job information for Stage-2: number of mappers: 23; number of reducers: 1
+16/10/12 09:02:16 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-10-12 09:02:16,652 Stage-2 map = 0%,  reduce = 0%
+2016-10-12 09:02:25,168 Stage-2 map = 22%,  reduce = 0%, Cumulative CPU 19.95 sec
+2016-10-12 09:02:26,266 Stage-2 map = 61%,  reduce = 0%, Cumulative CPU 55.9 sec
+2016-10-12 09:02:27,750 Stage-2 map = 78%,  reduce = 0%, Cumulative CPU 74.47 sec
+2016-10-12 09:02:28,854 Stage-2 map = 83%,  reduce = 0%, Cumulative CPU 78.44 sec
+2016-10-12 09:02:29,913 Stage-2 map = 91%,  reduce = 0%, Cumulative CPU 88.71 sec
+2016-10-12 09:02:30,995 Stage-2 map = 96%,  reduce = 0%, Cumulative CPU 94.33 sec
+2016-10-12 09:02:35,276 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 100.38 sec
+2016-10-12 09:02:39,964 Stage-2 map = 100%,  reduce = 68%, Cumulative CPU 108.81 sec
+2016-10-12 09:02:43,431 Stage-2 map = 100%,  reduce = 75%, Cumulative CPU 112.76 sec
+2016-10-12 09:02:46,690 Stage-2 map = 100%,  reduce = 83%, Cumulative CPU 116.8 sec
+2016-10-12 09:02:48,795 Stage-2 map = 100%,  reduce = 91%, Cumulative CPU 120.33 sec
+2016-10-12 09:02:52,069 Stage-2 map = 100%,  reduce = 97%, Cumulative CPU 123.56 sec
+2016-10-12 09:02:55,254 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 125.27 sec
+MapReduce Total cumulative CPU time: 2 minutes 5 seconds 270 msec
+Ended Job = job_1472768177330_933818
+Loading data to table hdp_oc_team.shopacctcntcteml
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000000_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000001_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000002_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000003_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000004_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000005_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000006_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000007_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000008_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000009_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000010_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000011_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000012_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000013_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000014_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000015_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000016_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000017_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000018_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000019_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000020_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000021_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000022_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000023_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000024_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000025_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000026_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000027_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000028_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000029_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000030_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000031_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000032_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000033_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000034_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000035_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000036_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000037_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000038_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000039_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000040_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000041_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000042_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000043_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000044_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000045_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000046_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000047_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000048_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000049_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000050_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000051_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000052_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000053_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000054_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000055_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000056_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000057_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000058_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000059_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000060_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000061_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000062_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000063_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000064_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000065_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000066_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000067_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000068_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000069_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000070_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000071_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000072_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000073_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000074_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000075_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000076_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000077_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000078_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000079_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000080_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000081_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000082_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000083_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000084_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000085_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000086_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000087_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000088_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000089_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000090_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000091_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000092_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000093_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000094_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000095_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000096_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000097_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000098_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000099_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000100_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000101_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000102_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000103_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000104_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000105_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000106_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000107_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000108_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000109_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000110_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000111_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000112_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000113_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000114_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000115_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000116_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000117_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000118_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000119_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000120_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000121_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000122_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000123_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000124_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000125_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000126_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000127_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000128_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000129_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000130_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000131_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000132_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000133_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000134_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000135_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000136_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000137_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000138_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000139_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000140_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000141_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000142_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000143_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000144_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000145_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000146_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000147_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000148_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000149_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000150_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000151_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000152_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000153_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000154_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000155_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000156_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000157_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000158_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000159_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000160_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000161_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000162_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000163_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000164_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000165_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000166_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000167_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000168_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000169_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000170_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000171_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000172_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000173_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000174_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000175_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000176_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000177_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000178_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000179_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000180_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000181_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000182_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000183_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000184_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000185_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000186_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000187_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000188_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000189_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000190_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000191_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000192_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000193_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000194_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000195_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000196_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000197_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000198_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000199_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000200_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000201_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000202_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000203_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000204_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000205_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000206_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000207_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000208_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000209_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000210_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000211_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000212_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000213_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000214_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000215_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000216_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000217_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000218_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000219_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000220_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000221_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000222_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000223_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000224_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000225_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000226_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000227_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000228_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000229_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000230_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000231_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000232_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000233_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000234_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000235_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000236_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000237_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000238_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000239_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000240_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000241_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000242_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000243_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000244_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000245_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000246_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000247_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000248_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000249_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000250_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000251_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000252_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000253_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000254_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000255_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000256_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000257_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000258_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000259_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000260_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000261_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000262_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000263_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000264_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000265_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000266_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000267_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000268_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000269_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000270_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000271_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000272_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000273_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000274_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000275_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000276_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000277_1' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000278_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000279_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000280_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000281_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000282_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000283_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000284_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000285_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000286_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000287_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000288_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000289_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000290_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000291_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000292_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000293_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000294_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000295_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000296_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000297_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000298_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000299_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000300_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000301_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000302_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000303_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000304_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000305_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000306_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000307_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000308_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000309_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000310_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000311_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000312_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000313_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000314_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000315_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000316_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000317_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000318_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000319_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000320_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000321_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000322_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000323_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000324_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000325_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000326_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000327_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000328_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000329_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000330_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000331_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000332_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000333_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000334_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000335_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000336_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000337_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000338_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000339_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000340_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000341_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000342_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000343_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000344_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000345_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000346_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000347_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000348_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000349_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000350_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000351_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000352_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000353_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000354_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000355_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000356_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000357_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000358_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000359_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000360_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000361_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000362_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000363_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000364_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000365_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000366_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000367_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000368_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000369_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000370_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000371_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000372_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000373_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000374_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000375_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000376_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000377_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000378_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000379_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000380_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000381_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000382_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000383_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000384_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000385_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000386_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000387_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000388_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000389_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000390_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000391_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000392_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000393_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000394_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000395_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000396_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000397_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000398_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000399_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000400_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Moved: 'hdfs://production/user/hdp_oc_team/hdp_oc_team.db/shopacctcntcteml/000401_0' to trash at: hdfs://production/user/hdp_oc_team/.Trash/Current
+Table hdp_oc_team.shopacctcntcteml stats: [numFiles=1, numRows=1073917, totalSize=175451956, rawDataSize=174378039]
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 83  Reduce: 23   Cumulative CPU: 2183.09 sec   HDFS Read: 702705786 HDFS Write: 154346316 SUCCESS
+Stage-Stage-2: Map: 23  Reduce: 1   Cumulative CPU: 125.27 sec   HDFS Read: 154355608 HDFS Write: 175452052 SUCCESS
+Total MapReduce CPU Time Spent: 38 minutes 28 seconds 360 msec
+OK
+Time taken: 163.113 seconds
+16/10/12 09:03:03 INFO tool.TeradataExportTool: TeradataExportTool starts at 1476288183137
+16/10/12 09:03:05 INFO mapreduce.TeradataOutputProcessor: job setup starts at 1476288185177
+16/10/12 09:03:05 INFO mapreduce.TeradataOutputProcessor: input url : jdbc:teradata://godaddy3.prod.phx3.gdg/DATABASE=P_HadoopImp_S
+16/10/12 09:03:05 INFO db.TeradataConnection: SELECT TRIM(T.TABLEKIND) AS TABLEKIND FROM DBC.TABLESX T WHERE T.DATABASENAME = (SELECT DATABASE) AND T.TABLENAME = 'ShopAcctCntctEml_STG'
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output method is multiple.fastload
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output database name is 
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output table name is ShopAcctCntctEml_STG
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output field count is 16
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output field names are [ShopAcctId, CustMapId, EmlId, SentDt, SentDtTm, PrivlblId, IscCd, EmlSrcId, EmlSrcKey, TemplId, MsgId, BtchId, ErrCdId, EmlFrMt, Lang, AudCrtDtTm]
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output batch size is 20000
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output stage database is 
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output stage table is TDCMFSTAGE_090308533
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: output combined number of mappers are 24
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: job setup ends at 1476288188574
+16/10/12 09:03:08 INFO mapreduce.TeradataOutputProcessor: job setup time is 3s
+16/10/12 09:03:08 INFO client.RMProxy: Connecting to ResourceManager at p3plpaname02.prod.phx3.gdg/10.22.245.3:8050
+16/10/12 09:03:08 INFO hdfs.DFSClient: Created HDFS_DELEGATION_TOKEN token 18915796 for hdp_oc_team on ha-hdfs:production
+16/10/12 09:03:08 INFO security.TokenCache: Got dt for hdfs://production; Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 18915796 for hdp_oc_team)
+16/10/12 09:03:09 INFO input.FileInputFormat: Total input paths to process : 1
+16/10/12 09:03:09 INFO input.FileInputFormat: Total input paths to process : 1
+16/10/12 09:03:09 INFO input.CombineFileInputFormat: DEBUG: Terminated node allocation with : CompletedNodes: 2, size left: 0
+16/10/12 09:03:09 INFO mapreduce.JobSubmitter: number of splits:23
+16/10/12 09:03:09 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1472768177330_933858
+16/10/12 09:03:09 INFO mapreduce.JobSubmitter: Kind: HDFS_DELEGATION_TOKEN, Service: ha-hdfs:production, Ident: (HDFS_DELEGATION_TOKEN token 18915796 for hdp_oc_team)
+16/10/12 09:03:09 WARN mapred.YARNRunner: Usage of -Djava.library.path in yarn.app.mapreduce.am.command-opts can cause programs to no longer function if hadoop native libraries are used. These values should be set as part of the LD_LIBRARY_PATH in the app master JVM env using yarn.app.mapreduce.am.env config settings.
+16/10/12 09:03:09 INFO impl.YarnClientImpl: Submitted application application_1472768177330_933858 to ResourceManager at p3plpaname02.prod.phx3.gdg/10.22.245.3:8050
+16/10/12 09:03:09 INFO mapreduce.Job: The url to track the job: http://p3plpaname02.prod.phx3.gdg:8088/proxy/application_1472768177330_933858/
+16/10/12 09:03:09 INFO mapreduce.Job: Running job: job_1472768177330_933858
+16/10/12 09:03:18 INFO mapreduce.Job: Job job_1472768177330_933858 running in uber mode : false
+16/10/12 09:03:18 INFO mapreduce.Job:  map 0% reduce 0%
+16/10/12 09:03:45 INFO mapreduce.Job:  map 2% reduce 0%
+16/10/12 09:03:48 INFO mapreduce.Job:  map 11% reduce 0%
+16/10/12 09:03:51 INFO mapreduce.Job:  map 16% reduce 0%
+16/10/12 09:03:52 INFO mapreduce.Job:  map 18% reduce 0%
+16/10/12 09:03:54 INFO mapreduce.Job:  map 21% reduce 0%
+16/10/12 09:03:57 INFO mapreduce.Job:  map 24% reduce 0%
+16/10/12 09:04:00 INFO mapreduce.Job:  map 26% reduce 0%
+16/10/12 09:04:03 INFO mapreduce.Job:  map 36% reduce 0%
+16/10/12 09:04:06 INFO mapreduce.Job:  map 39% reduce 0%
+16/10/12 09:04:07 INFO mapreduce.Job:  map 43% reduce 0%
+16/10/12 09:04:10 INFO mapreduce.Job:  map 45% reduce 0%
+16/10/12 09:04:12 INFO mapreduce.Job:  map 49% reduce 0%
+16/10/12 09:04:13 INFO mapreduce.Job:  map 51% reduce 0%
+16/10/12 09:04:16 INFO mapreduce.Job:  map 57% reduce 0%
+16/10/12 09:04:18 INFO mapreduce.Job:  map 59% reduce 0%
+16/10/12 09:04:20 INFO mapreduce.Job:  map 65% reduce 0%
+16/10/12 09:04:21 INFO mapreduce.Job:  map 70% reduce 0%
+16/10/12 09:04:22 INFO mapreduce.Job:  map 72% reduce 0%
+16/10/12 09:04:23 INFO mapreduce.Job:  map 74% reduce 0%
+16/10/12 09:04:24 INFO mapreduce.Job:  map 79% reduce 0%
+16/10/12 09:04:25 INFO mapreduce.Job:  map 84% reduce 0%
+16/10/12 09:04:26 INFO mapreduce.Job:  map 86% reduce 0%
+16/10/12 09:04:27 INFO mapreduce.Job:  map 93% reduce 0%
+16/10/12 09:04:33 INFO mapreduce.Job:  map 96% reduce 0%
+16/10/12 09:04:45 INFO mapreduce.Job:  map 100% reduce 0%
+16/10/12 09:04:48 INFO mapreduce.Job: Job job_1472768177330_933858 completed successfully
+16/10/12 09:04:48 INFO mapreduce.Job: Counters: 28
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=2462682
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=176246152
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=48
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+	Job Counters 
+		Launched map tasks=23
+		Other local map tasks=20
+		Rack-local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=2709728
+		Total time spent by all reduces in occupied slots (ms)=0
+	Map-Reduce Framework
+		Map input records=1073917
+		Map output records=1073917
+		Input split bytes=4025
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3896
+		CPU time spent (ms)=207820
+		Physical memory (bytes) snapshot=7367442432
+		Virtual memory (bytes) snapshot=68138967040
+		Total committed heap usage (bytes)=47945089024
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0
+16/10/12 09:04:48 INFO mapreduce.TeradataOutputProcessor: job cleanup starts at 1476288288756
+16/10/12 09:04:48 INFO db.TeradataConnection: SELECT TRIM(TRAILING FROM TABLENAME) FROM DBC.TABLESX  WHERE DATABASENAME = (SELECT DATABASE) AND TABLENAME LIKE 'TDCMFSTAGE_090308533%'
+16/10/12 09:04:49 INFO db.TeradataConnection: INSERT INTO "ShopAcctCntctEml_STG" ("ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm") SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_20" UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_21"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_1"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_7"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_5"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_14"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_8"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_18"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_12"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_11"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_16"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_4"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_13"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_17"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_0"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_9"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_6"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_19"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_3"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_15"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_2"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_10"  UNION ALL SELECT "ShopAcctId", "CustMapId", "EmlId", "SentDt", "SentDtTm", "PrivlblId", "IscCd", "EmlSrcId", "EmlSrcKey", "TemplId", "MsgId", "BtchId", "ErrCdId", "EmlFrMt", "Lang", "AudCrtDtTm" FROM "TDCMFSTAGE_090308533_22" 
+16/10/12 09:04:52 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_20"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_21"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_1"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_7"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_5"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_14"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_8"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_18"
+16/10/12 09:04:53 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_12"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_11"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_16"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_4"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_13"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_17"
+16/10/12 09:04:54 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_0"
+16/10/12 09:04:55 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_9"
+16/10/12 09:04:55 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_6"
+16/10/12 09:04:56 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_19"
+16/10/12 09:04:56 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_3"
+16/10/12 09:04:56 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_15"
+16/10/12 09:04:57 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_2"
+16/10/12 09:04:58 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_10"
+16/10/12 09:05:03 INFO db.TeradataConnection: DROP TABLE "TDCMFSTAGE_090308533_22"
+16/10/12 09:05:03 INFO mapreduce.TeradataMultipleFastloadOutputProcessor: staging tables with name prefix of "TDCMFSTAGE_090308533" are dropped
+16/10/12 09:05:03 INFO mapreduce.TeradataOutputProcessor: job cleanup ends at 1476288303494
+16/10/12 09:05:03 INFO mapreduce.TeradataOutputProcessor: job cleanup time is 14s
+16/10/12 09:05:03 INFO tool.TeradataExportTool: TeradataExportTool ends at 1476288303495
+16/10/12 09:05:03 INFO tool.TeradataExportTool: TeradataExportTool time is 120s
+16/10/12 09:05:03 INFO tool.TeradataExportTool: job completed with exit code 0
+BTEQ 15.00.00.02 Wed Oct 12 09:05:03 2016 PID: 17561
+ 
++---------+---------+---------+---------+---------+---------+---------+----
+/************************************************************************ 
+**
+**        NAME:  ShopAcctCntctEml-Hourly3.btq
+**
+**      INPUTS:  P_HadoopImp.vsShopAcctCntctEml_STG
+**
+**     OUTPUTS:  P_HadoopImp.vtShopAcctCntctEml
+**
+**     HISTORY:  AUTHOR    	        DATE                DESCRIPTION
+**               MZWOLAK	      	2014-07-16.01       Original script
+**               BMOSLEY            2015-05-14.02       Created to Load GD3 in Parallel
+************************************************************************/
+
+.SET ECHOREQ ON
++---------+---------+---------+---------+---------+---------+---------+----
+.SET ERROROUT STDOUT
+ *** Error messages now directed to STDOUT.
++---------+---------+---------+---------+---------+---------+---------+----
+.SET WIDTH 256
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.LOGON godaddy3.prod.phx3.gdg/P_BTCH_HadoopImp,
+
+ *** Logon successfully completed.
+ *** Teradata Database Release is 15.00.02.03                   
+ *** Teradata Database Version is 15.00.02.05                     
+ *** Transaction Semantics are BTET.
+ *** Session Character Set Name is 'ASCII'.
+ 
+ *** Total elapsed time was 1 second.
+ 
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+LOCKING ROW FOR ACCESS SELECT TOP 1 * FROM P_HadoopImp_S.ShopAcctCntctEml_STG;
+
+ *** Query completed. One row found. 16 columns returned. 
+ *** Total elapsed time was 1 second.
+
+ShopAcctId   CustMapId                EmlId     SentDt                SentDtTm   PrivlblId IscCd           EmlSrcId   EmlSrcKey     TemplId MsgId
+---------- ----------- -------------------- ---------- ----------------------- ----------- ------------ ----------- ----------- ----------- --------------------------------------------------------------------------------------------------------------------
+4929676        2884420           5020377830 2016-10-12 2016-10-12 06:00:00.000      105886 rs416a1               15           0           0 99999999-9999-9999-9999-999999999999
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.IF ACTIVITYCOUNT = 0 THEN .GOTO E003;
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+BEGIN TRANSACTION;
+
+ *** Begin transaction accepted. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+LOCKING P_HadoopImp_T.ShopAcctCntctEml FOR ACCESS
+MERGE INTO
+ P_HadoopImp_T.ShopAcctCntctEml AS trgt
+USING
+ P_HadoopImp_S.ShopAcctCntctEml_STG AS src
+  ON src.ShopAcctId  = trgt.ShopAcctId
+  AND src.EmlId = trgt.EmlId
+WHEN MATCHED THEN UPDATE
+    SET
+   CustMapId = src.CustMapId
+   ,SentDt = src.SentDt
+   ,SentDtTm = src.SentDtTm
+   ,PrivlblId = src.PrivlblId
+   ,IscCd = src.IscCd
+   ,EmlSrcId = src.EmlSrcId
+   ,EmlSrcKey = src.EmlSrcKey
+   ,TemplId = src.TemplId
+   ,MsgId = src.MsgId
+   ,BtchId = src.BtchId
+   ,ErrCdId = src.ErrCdId
+   ,EmlFrMt = src.EmlFrMt
+   ,Lang = src.Lang
+   ,AudCrtDtTm = src.AudCrtDtTm
+WHEN NOT MATCHED THEN INSERT
+(
+  ShopAcctId
+    ,CustMapId
+    ,EmlId
+    ,SentDt
+    ,SentDtTm
+    ,PrivlblId
+    ,IscCd
+    ,EmlSrcId
+    ,EmlSrcKey
+    ,TemplId
+    ,MsgId
+    ,BtchId
+    ,ErrCdId
+    ,EmlFrMt
+    ,Lang
+    ,AudCrtDtTm
+    ,DelInd
+    ,EtlInsLdId
+    ,EtlUpdLdId
+)
+VALUES
+(
+ src.ShopAcctId
+ ,src.CustMapId
+ ,src.EmlId
+ ,src.SentDt
+ ,src.SentDtTm
+ ,src.PrivlblId
+ ,src.IscCd
+ ,src.EmlSrcId
+ ,src.EmlSrcKey
+ ,src.TemplId
+ ,src.MsgId
+ ,src.BtchId
+ ,src.ErrCdId
+ ,src.EmlFrMt
+ ,src.Lang
+ ,CAST(src.AudCrtDtTm AS TIMESTAMP(3) FORMAT 'YYYY-MM-DDBHH:MI:SS.S(3)')
+ ,'A'
+ ,0
+ ,0
+);
+
+ *** Merge completed. 1073917 rows affected.
+     161533 rows inserted, 912384 rows updated, no rows deleted.
+ *** Total elapsed time was 5 minutes and 36 seconds.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+DELETE P_HadoopImp_S.ShopAcctCntctEml_STG ALL;
+
+ *** Delete completed. 1073917 rows removed. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+.IF ERRORCODE <> 0 THEN .GOTO E003
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+
+END TRANSACTION;
+
+ *** End transaction accepted. 
+ *** Total elapsed time was 1 second.
+
+
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+
+.LOGOFF
+ *** You are now logged off from the DBC.
++---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-
+.QUIT
+ *** Exiting BTEQ...
+ *** RC (return code) = 0 
+process started: 2016-10-12 09:00
+process completed: 2016-10-12 09:00
